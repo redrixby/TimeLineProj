@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1440</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1440</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>1440</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>TimeLine</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resurce.qrc">
+    <normaloff>:/resource/res/icon.png</normaloff>:/resource/res/icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-color:#ffffff;</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>308</x>
+      <y>-160</y>
+      <width>1949</width>
+      <height>1555</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/resource/res/main_back.png);
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <widget class="QWidget" name="loginWidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>217</x>
+       <y>390</y>
+       <width>400</width>
+       <height>300</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(0, 170, 255);
+border-radius: 5px;</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>200</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: normal;
+color: #FFFFFF;
+</string>
+      </property>
+      <property name="text">
+       <string>Вход</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>82</y>
+        <width>100</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: normal;
+color: #FFFFFF;
+</string>
+      </property>
+      <property name="text">
+       <string>Логин</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>166</y>
+        <width>60</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: normal;
+color: #FFFFFF;</string>
+      </property>
+      <property name="text">
+       <string>Пароль</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="loginButton">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>250</y>
+        <width>120</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgba(255, 255, 255, 0.8);
+border-radius: 5px;
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: normal;
+text-align: center;
+
+color: #0E8BDC;</string>
+      </property>
+      <property name="text">
+       <string>Выполнить вход</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>106</y>
+        <width>360</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FBFBFB;
+border: 2px solid #6FCF97;
+box-sizing: border-box;
+border-radius: 10px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: normal;
+text-align: justify;
+
+color: rgba(8, 39, 64, 0.3);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>190</y>
+        <width>360</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: #FBFBFB;
+border: 2px solid #6FCF97;
+box-sizing: border-box;
+border-radius: 10px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: normal;
+text-align: justify;
+
+color: rgba(8, 39, 64, 0.3);</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>209</x>
+       <y>200</y>
+       <width>240</width>
+       <height>83</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 87px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.5);</string>
+     </property>
+     <property name="text">
+      <string>TimeLine</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>200</y>
+       <width>180</width>
+       <height>83</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 87px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.5);</string>
+     </property>
+     <property name="text">
+      <string>Line</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>308</width>
+      <height>1555</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1440</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resurce.qrc"/>
+ </resources>
+ <connections/>
+</ui>
