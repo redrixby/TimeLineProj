@@ -16,10 +16,13 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_loginButton_clicked();
 
 private:
     Ui::MainWindow *ui;
+
+private:
+    void slot_loginButton_clicked();
 };
 
 #endif // MAINWINDOW_H
