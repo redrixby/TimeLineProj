@@ -2,11 +2,12 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include<workformmain.h>
 
 namespace Ui {
 class MainWindow;
 }
-
+class WorkFormMain;
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -16,13 +17,11 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_loginButton_clicked();
+    void on_pushButton_clicked();
 
 private:
     Ui::MainWindow *ui;
-
-private:
-    void slot_loginButton_clicked();
+    WorkFormMain *workFormMain = new WorkFormMain();
 };
 
 #endif // MAINWINDOW_H

@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>main_back.png</file>
+        <file>icon.png</file>
+        <file>open_menu.png</file>
+        <file>arrow_search.png</file>
+        <file>open_menu_close.png</file>
+        <file>TimeLine.png</file>
+        <file>myFoto.jpg</file>
+        <file>search.png</file>
+        <file>abitur.png</file>
+        <file>hrd.png</file>
+        <file>uch.png</file>
+        <file>ListReversal_1.png</file>
+        <file>chat.png</file>
+        <file>quastion.png</file>
+        <file>sittengs.png</file>
+        <file>RedrixLab.png</file>
+        <file>new_abit.png</file>
+        <file>new_chat.png</file>
+        <file>new_hrd.png</file>
+        <file>new_quastion.png</file>
+        <file>new_sittengs.png</file>
+        <file>new_uch.png</file>
+        <file>click_abit.png</file>
+        <file>click_hrd.png</file>
+        <file>click_uch.png</file>
+    </qresource>
+</RCC>

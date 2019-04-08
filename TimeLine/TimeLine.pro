@@ -1,10 +1,12 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-04-03T09:45:32
+# Project created by QtCreator 2019-04-08T14:59:52
 #
 #-------------------------------------------------
 
-QT       += core gui widgets
+QT       += core gui
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = TimeLine
 TEMPLATE = app
@@ -24,13 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    workformmain.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    workformmain.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    workformmain.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -38,4 +43,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    resurce.qrc
+    res/res.qrc
