@@ -1,0 +1,6 @@
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\RedRixLab.TimeLine.Models\bin\Debug\netcoreapp2.2\RedRixLab.TimeLine.Models.deps.json
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\RedRixLab.TimeLine.Models\bin\Debug\netcoreapp2.2\RedRixLab.TimeLine.Models.dll
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\RedRixLab.TimeLine.Models\obj\Debug\netcoreapp2.2\RedRixLab.TimeLine.Models.csprojAssemblyReference.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\RedRixLab.TimeLine.Models\obj\Debug\netcoreapp2.2\RedRixLab.TimeLine.Models.csproj.CoreCompileInputs.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\RedRixLab.TimeLine.Models\obj\Debug\netcoreapp2.2\RedRixLab.TimeLine.Models.AssemblyInfoInputs.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\RedRixLab.TimeLine.Models\obj\Debug\netcoreapp2.2\RedRixLab.TimeLine.Models.AssemblyInfo.cs

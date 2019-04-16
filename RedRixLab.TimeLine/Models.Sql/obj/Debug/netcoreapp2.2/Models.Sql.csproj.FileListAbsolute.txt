@@ -1,0 +1,9 @@
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.deps.json
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.csproj.CoreCompileInputs.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.AssemblyInfoInputs.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.AssemblyInfo.cs
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.csprojAssemblyReference.cache

@@ -1,0 +1,332 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+        "projectName": "DataAccess.Models",
+        "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+        "packagesPath": "C:\\Users\\gvozdik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gvozdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
+        "projectName": "DataAccess.Sql",
+        "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
+        "packagesPath": "C:\\Users\\gvozdik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gvozdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
+                "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
+        "projectName": "Interfaces.Sql",
+        "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
+        "packagesPath": "C:\\Users\\gvozdik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gvozdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+                "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "projectName": "Models.Sql",
+        "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "packagesPath": "C:\\Users\\gvozdik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gvozdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj",
+        "projectName": "Services.Sql",
+        "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj",
+        "packagesPath": "C:\\Users\\gvozdik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Services.Sql\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gvozdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
+                "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj"
+              },
+              "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
+                "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj"
+              },
+              "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+                "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Linq.Queryable": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

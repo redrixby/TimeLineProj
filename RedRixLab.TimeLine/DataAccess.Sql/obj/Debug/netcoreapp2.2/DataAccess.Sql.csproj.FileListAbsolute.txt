@@ -1,0 +1,12 @@
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Sql.deps.json
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csprojAssemblyReference.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CoreCompileInputs.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfoInputs.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfo.cs
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CopyComplete
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.dll
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.pdb

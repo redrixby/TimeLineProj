@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Web.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Api.Web.Api.Config.StartupOptions">
+            <summary>
+            Настройки для запуска приложения
+            </summary>
+        </member>
+        <member name="F:Api.Web.Api.Config.StartupOptions.EnableSwagger">
+            <summary>
+            Swagger включен
+            </summary>
+        </member>
+    </members>
+</doc>

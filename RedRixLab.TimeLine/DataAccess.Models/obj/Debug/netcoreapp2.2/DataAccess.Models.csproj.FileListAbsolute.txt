@@ -1,0 +1,9 @@
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csprojAssemblyReference.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
