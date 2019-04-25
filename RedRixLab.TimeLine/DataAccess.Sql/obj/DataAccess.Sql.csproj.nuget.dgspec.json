@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {}
+    "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
+    "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+        "projectUniqueName": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
         "projectName": "DataAccess.Models",
-        "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
-        "packagesPath": "C:\\Users\\gvozdik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\obj\\",
+        "projectPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gvozdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -62,21 +62,21 @@
         }
       }
     },
-    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
+    "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
+        "projectUniqueName": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
         "projectName": "DataAccess.Sql",
-        "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
-        "packagesPath": "C:\\Users\\gvozdik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Sql\\obj\\",
+        "projectPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gvozdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -90,8 +90,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
-                "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj"
+              "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
+                "projectPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj"
               }
             }
           }

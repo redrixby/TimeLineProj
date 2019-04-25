@@ -10,3 +10,15 @@ C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcor
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.deps.json
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csprojAssemblyReference.cache
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CoreCompileInputs.cache
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfoInputs.cache
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfo.cs
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
+F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb

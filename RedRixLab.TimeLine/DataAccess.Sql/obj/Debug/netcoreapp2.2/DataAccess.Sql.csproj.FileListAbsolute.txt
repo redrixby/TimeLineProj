@@ -10,3 +10,15 @@ C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcor
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CopyComplete
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.dll
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Sql.deps.json
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csprojAssemblyReference.cache
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CoreCompileInputs.cache
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfoInputs.cache
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfo.cs
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CopyComplete
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.dll
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.pdb

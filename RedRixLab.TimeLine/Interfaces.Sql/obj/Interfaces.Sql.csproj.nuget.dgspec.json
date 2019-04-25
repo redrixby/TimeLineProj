@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {}
+    "F:\\RedRix\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
+    "F:\\RedRix\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
+        "projectUniqueName": "F:\\RedRix\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
         "projectName": "Interfaces.Sql",
-        "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
-        "packagesPath": "C:\\Users\\gvozdik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Interfaces.Sql\\obj\\",
+        "projectPath": "F:\\RedRix\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "F:\\RedRix\\RedRixLab.TimeLine\\Interfaces.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gvozdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
-                "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
+              "F:\\RedRix\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+                "projectPath": "F:\\RedRix\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
               }
             }
           }
@@ -62,21 +62,21 @@
         }
       }
     },
-    "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+    "F:\\RedRix\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "projectUniqueName": "F:\\RedRix\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
         "projectName": "Models.Sql",
-        "projectPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
-        "packagesPath": "C:\\Users\\gvozdik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gvozdik\\source\\repos\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
+        "projectPath": "F:\\RedRix\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "F:\\RedRix\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gvozdik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

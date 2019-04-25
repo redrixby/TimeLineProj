@@ -31,27 +31,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{5AFE36
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop.App", "Desktop.App\Desktop.App.csproj", "{9EFEC14D-3A48-4E8F-9D64-9D954E67DB84}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TimeLine.WebApp.Angular", "Web.App\TimeLine.WebApp.Angular", "{16C6C019-1EC5-4C9A-AE07-5BD730B912A5}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_5233"
-		Debug.AspNetCompiler.PhysicalPath = "Web.App\TimeLine.WebApp.Angular\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5233\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_5233"
-		Release.AspNetCompiler.PhysicalPath = "Web.App\TimeLine.WebApp.Angular\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5233\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "5233"
-		SlnRelativePath = "Web.App\TimeLine.WebApp.Angular\"
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,10 +65,6 @@ Global
 		{9EFEC14D-3A48-4E8F-9D64-9D954E67DB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EFEC14D-3A48-4E8F-9D64-9D954E67DB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EFEC14D-3A48-4E8F-9D64-9D954E67DB84}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16C6C019-1EC5-4C9A-AE07-5BD730B912A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16C6C019-1EC5-4C9A-AE07-5BD730B912A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16C6C019-1EC5-4C9A-AE07-5BD730B912A5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{16C6C019-1EC5-4C9A-AE07-5BD730B912A5}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,7 +80,6 @@ Global
 		{1FA0FC36-F116-4C25-BC85-7BA111ADC1B0} = {5AFE3602-7F44-46D7-A19A-A167E8F1C08A}
 		{5AFE3602-7F44-46D7-A19A-A167E8F1C08A} = {33FF569B-6123-4EB2-972E-41D792D1E208}
 		{9EFEC14D-3A48-4E8F-9D64-9D954E67DB84} = {36AAD9F4-4F30-48CD-8A03-5260C241FB20}
-		{16C6C019-1EC5-4C9A-AE07-5BD730B912A5} = {236FF5DE-5754-4E7A-B60C-7DE414265ACB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88DE9470-C8F0-489B-A8B2-B776F5F904EE}

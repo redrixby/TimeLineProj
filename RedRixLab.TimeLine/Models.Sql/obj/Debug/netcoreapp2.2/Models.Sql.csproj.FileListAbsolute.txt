@@ -7,3 +7,12 @@ C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.dll
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.pdb
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.csprojAssemblyReference.cache
+F:\RedRix\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.deps.json
+F:\RedRix\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+F:\RedRix\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+F:\RedRix\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.csprojAssemblyReference.cache
+F:\RedRix\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.csproj.CoreCompileInputs.cache
+F:\RedRix\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.AssemblyInfoInputs.cache
+F:\RedRix\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.AssemblyInfo.cs
+F:\RedRix\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.dll
+F:\RedRix\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.pdb

@@ -7,3 +7,12 @@ C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\net
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csprojAssemblyReference.cache
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
+F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
