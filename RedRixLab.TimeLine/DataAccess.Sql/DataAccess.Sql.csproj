@@ -5,6 +5,43 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Maps\**" />
+    <EmbeddedResource Remove="Maps\**" />
+    <None Remove="Maps\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190425070116_TimeLine.cs" />
+    <Compile Remove="Migrations\20190425070116_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190425070555_TimeLine.cs" />
+    <Compile Remove="Migrations\20190425070555_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190425073028_TimeLine.cs" />
+    <Compile Remove="Migrations\20190425073028_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190425074117_TimeLine.cs" />
+    <Compile Remove="Migrations\20190425074117_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190425074448_TimeLine.cs" />
+    <Compile Remove="Migrations\20190425074448_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190425075255_TimeLine.cs" />
+    <Compile Remove="Migrations\20190425075255_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190425080632_TimeLine.cs" />
+    <Compile Remove="Migrations\20190425080632_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190425081441_TimeLine.cs" />
+    <Compile Remove="Migrations\20190425081441_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190425105532_TimeLine1.cs" />
+    <Compile Remove="Migrations\20190425105532_TimeLine1.Designer.cs" />
+    <Compile Remove="Migrations\20190426115551_TimeLine.cs" />
+    <Compile Remove="Migrations\20190426115551_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190426122824_TimeLine.cs" />
+    <Compile Remove="Migrations\20190426122824_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190426122956_TimeLine.cs" />
+    <Compile Remove="Migrations\20190426122956_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190426123040_TimeLine.cs" />
+    <Compile Remove="Migrations\20190426123040_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190428171003_TimeLine.cs" />
+    <Compile Remove="Migrations\20190428171003_TimeLine.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Api.Models.Sql.PagedModels
+namespace Models.Sql.PagedModels
 {
     /// <summary>
     /// Модель результирующей страницы.

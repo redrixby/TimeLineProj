@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Media;
 
 namespace Desktop.App.Pages
 {
@@ -20,23 +21,28 @@ namespace Desktop.App.Pages
     /// </summary>
     public partial class LoginPage : Page
     {
-        private Frame fMainFrame;
+        private MainWindow mw;
+
         public LoginPage()
         {
             InitializeComponent();
             //DataContext = new ViewModel.LoginVeiwModel();
         }
 
-        public LoginPage(Frame frame)
+        public LoginPage(MainWindow o_mw)
         {
             InitializeComponent();
-            fMainFrame = frame;
+            mw = o_mw;
         }
 
-            private void LoginButton_Click(object sender, RoutedEventArgs e)
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            fMainFrame.Navigate(new WelcomPage());
-            
+            if (mw != null)
+            {
+                //mw.MenuFrame.Background = new SolidColorBrush(Colors.Red);
+                mw.MenuFrame.Navigate(new Pages.MenuPage(mw));
+                mw.MainFrame.Navigate(new Pages.WelcomPage());
+            }
         }
     }
 }

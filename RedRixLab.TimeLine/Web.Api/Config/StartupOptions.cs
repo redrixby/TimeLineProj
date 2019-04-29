@@ -1,4 +1,4 @@
-﻿namespace Api.Web.Api.Config
+﻿namespace Web.Api.Config
 {
     /// <summary>
     /// Настройки для запуска приложения

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Api.DataAccess.Sql.Interfaces
+namespace DataAccess.Sql.Interfaces
 {
     public interface IContextFactory : IDisposable
     {

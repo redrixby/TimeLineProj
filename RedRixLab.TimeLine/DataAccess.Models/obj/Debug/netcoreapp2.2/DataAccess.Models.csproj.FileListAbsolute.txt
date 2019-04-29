@@ -1,18 +1,53 @@
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csprojAssemblyReference.cache
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
-F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
-F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
-F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
-F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csprojAssemblyReference.cache
-F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
-F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
-F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
-F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
-F:\RedRix\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csprojAssemblyReference.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csprojAssemblyReference.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csprojAssemblyReference.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
+D:\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
+D:\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+D:\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+D:\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
+D:\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
+D:\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
+D:\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
+D:\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb
+D:\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csprojAssemblyReference.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.deps.json
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Models\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csprojAssemblyReference.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.csproj.CoreCompileInputs.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfoInputs.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.AssemblyInfo.cs
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Models\obj\Debug\netcoreapp2.2\DataAccess.Models.pdb

@@ -1,20 +1,21 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
+using Api.Services.Sql.Profiles;
 using AutoMapper;
-using Api.DataAccess.Sql.Extensions;
+using DataAccess.Sql.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Api.Models.Sql.ConfigModels;
-using Api.Services.Sql.Extensions;
+using Models.Sql.ConfigModels;
+using Services.Sql.Extensions;
 using Swashbuckle.AspNetCore.Swagger;
-using Api.Web.Api.Config;
-using Api.Web.Api.Profiles;
+using Web.Api.Config;
+using Web.Api.Profiles;
 
-namespace Api.Web.Api
+namespace Web.Api
 {
     public class Startup
     {
@@ -70,6 +71,7 @@ namespace Api.Web.Api
 
             services.AddAutoMapper(cfg =>
             {
+                cfg.AddProfile<BusinessLogicProfile>();
                 cfg.AddProfile<TimeLineProfile>();
             });
 

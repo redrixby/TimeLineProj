@@ -5,26 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Desktop.App"
         mc:Ignorable="d"
-        Title="TimeLine" Height="900" Width="1449.333"
-        Icon="C:/REDRIX/RedRixLab.TimeLine/Resource/image/icon_main.png" MinWidth="1280" MinHeight="800">
+        Title="TimeLine" Height="900" Width="1280"
+        Icon="/Desktop.App;component/Resources/img/icon_main.png" MinWidth="1280" MinHeight="800" Background="White" Loaded="Window_Loaded">
 
-    <Grid x:Name="MainGrid" RenderTransformOrigin="0.46,0.534">
+    <Grid RenderTransformOrigin="0.46,0.534">
         <Grid.ColumnDefinitions>
             <ColumnDefinition  Width="197"></ColumnDefinition>
             <ColumnDefinition Width="Auto"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Canvas Grid.Column="0" Margin="0,0,9.667,-0.333"/>
+        <Canvas Grid.Column="0" Background="#FFFFFBFB"></Canvas>
         <Canvas Grid.Column="1" Background="#F1F1F1"></Canvas>
         <Frame x:Name="MenuFrame"
+            Grid.Column="0"
             Content="{Binding CurrentPageMenu}"
             NavigationUIVisibility="Hidden"
-            Opacity="1"/>
+            Opacity="1" Background="#FFF1F1F1"/>
         <Frame x:Name="MainFrame"
             Grid.Column="1"
             Content="{Binding CurrentPage}"
-            Opacity="1"
-               />
-        <Button Content="Button" HorizontalAlignment="Left" Margin="51.333,655,-125,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Column="1" Visibility="Hidden"/>
+            Opacity="1" NavigationUIVisibility="Hidden"
+            />
     </Grid>
-
 </Window>

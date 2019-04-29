@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace Api.Services.Sql.Helpers
+namespace Services.Sql.Helpers
 {
     public static class ConfigurationHelper
     {

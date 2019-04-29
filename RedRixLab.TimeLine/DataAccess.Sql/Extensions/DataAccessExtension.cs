@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Api.DataAccess.Sql.Contexts;
-using Api.DataAccess.Sql.Interfaces;
-using Api.DataAccess.Models;
+using DataAccess.Sql.Contexts;
+using DataAccess.Sql.Interfaces;
+using DataAccess.Models;
 using System;
 
-namespace Api.DataAccess.Sql.Extensions
+namespace DataAccess.Sql.Extensions
 {
     public static class DataAccessExtensions
     {

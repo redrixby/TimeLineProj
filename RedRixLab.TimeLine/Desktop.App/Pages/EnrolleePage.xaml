@@ -12,7 +12,7 @@
     <Page.Resources>
         <ControlTemplate x:Key="ButtonTemplate" TargetType="Button" >
             <Border BorderBrush="White" BorderThickness="0"
-                    TextBlock.Foreground="Black" Margin="0 0 0 0">
+                     Margin="0 0 0 0">
                 <Border.Background>
                     <LinearGradientBrush>
                         <GradientStop Color="White"></GradientStop>
@@ -38,99 +38,61 @@
                 <ContentPresenter RecognizesAccessKey="True" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
             </Border>
         </ControlTemplate>
+        <ControlTemplate x:Key="ButtonIconTemplate" TargetType="Button" >
+            <Border BorderThickness="0" 
+                    TextBlock.Foreground="#0E8BDC" 
+                    Margin="0 0 0 0">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="White"></GradientStop>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <ContentPresenter RecognizesAccessKey="True" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
+            </Border>
+        </ControlTemplate>
+        <Image x:Key="blue_ellipse_empty" Source="/Desktop.App;component/Resources/img/blue_ellipse_empty.png"/>
+        <Image x:Key="blue_ellipse" Source="/Desktop.App;component/Resources/img/blue_ellipse.png"/>
+
+
     </Page.Resources>
 
-    <Grid >
-        <Grid.Background>
-            <ImageBrush ImageSource="C:/REDRIX/RedRixLab.TimeLine/Resource/image/back_main.png" Stretch="UniformToFill"/>
-        </Grid.Background>
+    <Grid Margin="0" >
 
         <DockPanel 
             HorizontalAlignment="Left" 
-            Height="309" 
-            Width="566"
+            Height="335" 
+            Width="575"
             LastChildFill="False" 
             Margin="15,186,0,0" 
-            VerticalAlignment="Top" 
-            Background="White">
+            VerticalAlignment="Top">
+            <DockPanel.Background>
+                <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_filter.png"/>
+            </DockPanel.Background>
+
             <TextBlock 
                 Width="107" 
                 Height="15" 
                 Margin="15,20,0,0" 
                 HorizontalAlignment="Left" 
                 VerticalAlignment="Top" 
-                Text="Создать список" 
+                Text="Поиск списка" 
                 FontFamily="PT Sans" 
                 FontWeight="Bold"
-                FontSize="12">
-            </TextBlock>
-            <TextBlock 
+                FontSize="12"/>
+            <Button
+                x:Name="OpenPanelSearchListFromInsertEnrollePanel"
                 Width="97" 
-                Height="15" 
-                Margin="335,20,0,0" 
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top" 
-                Text="Открыть списки" 
+                Margin="335,20,0,274" 
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Открыть список" 
                 FontFamily="PT Sans" 
                 FontWeight="Bold"
-                FontSize="12">
-            </TextBlock>
-            <TextBlock 
-                Width="107" 
-                Height="15" 
-                Margin="-540,50,0,0" 
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top" 
-                Text="Форма обучения" 
-                FontFamily="PT Sans" 
-                FontWeight="Bold"
-                FontSize="12">
-            </TextBlock>
-            <ComboBox Height="30" VerticalAlignment="Top" Width="323" HorizontalAlignment="Left" Margin="-540,73,0,0">
-                <Border 
-                    CornerRadius="10,0,0,10"
-                    BorderThickness="1,1,0,1"/>
-            </ComboBox>
-            <TextBlock 
-                Width="107" 
-                Height="15" 
-                Margin="-200,50,0,0" 
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top" 
-                Text="Специальность" 
-                FontFamily="PT Sans" 
-                FontWeight="Bold" 
-                FontSize="12">
-            </TextBlock>
-            <TextBlock 
-                Width="90" 
-                Height="15" 
-                Margin="-80,50,0,0" 
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top" 
-                Text="Набор кол-во" 
-                FontFamily="PT Sans" 
-                FontWeight="Bold" 
-                FontSize="12">
-            </TextBlock>
-            <ComboBox Height="30" VerticalAlignment="Top" Width="98" Margin="-328,73,0,0">
-                <Border 
-                    CornerRadius="10,0,0,10"
-                    BorderThickness="1,1,0,1"/>
-            </ComboBox>
-            <TextBox Height="30" TextWrapping="Wrap"  VerticalAlignment="Top" Width="85" Margin="-100,73,0,0" MaxLines="1" Template="{StaticResource TextBoxTemplate}" FontFamily="PT Sans" FontSize="10" TextAlignment="Center" Background="#EFEFEF"/>
-            <Button 
-                Margin="-138,-50,0,0"
-                Content="Создасть список" 
-                Grid.Column="1" 
-                HorizontalAlignment="Left"                
-                Width="130" 
-                Height="30"
-                FontFamily="PT Sans" 
-                FontWeight="Bold" 
-                Foreground="#FF0E8BDC" 
-                Template="{StaticResource ButtonComTemplate}" Click="Button_Click"/>
-
+                FontSize="12" 
+                Foreground="#FF0E8BDC"
+                Template="{StaticResource ButtonTemplate}" Height="15"  Click="OpenPanelSearchListFromInsertEnrollePanel_Click" 
+               
+                />
         </DockPanel>
 
 
@@ -158,6 +120,7 @@
             FontSize="16" 
             FontWeight="Bold"/>
         <Label 
+            x:Name="labelNameGrid"
             Content="Дневная ФО полное КпИд" 
             HorizontalAlignment="Left" 
             Margin="15,526,0,0" 
@@ -165,19 +128,19 @@
             FontFamily="PT Sans" 
             FontSize="16" 
             FontWeight="Bold"/>
-        <StackPanel Orientation="Horizontal" Margin="846,528,146,256" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Image Source="f:/RedRix/RedRixLab.TimeLine/Resource/image/red_ellipse.png" Width="13" Height="13"/>
+        <StackPanel x:Name="redIcon" Orientation="Horizontal" Margin="846,528,146,256" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image Source="/Desktop.App;component/Resources/img/red_ellipse.png" Width="13" Height="13"/>
             <TextBlock Margin="3" VerticalAlignment="Center" FontFamily="PT Sans" TextWrapping="Wrap" TextAlignment="Center" Width="70">Не поступил</TextBlock>
         </StackPanel>
 
-        <StackPanel Orientation="Horizontal" Margin="942,528,61,256" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <Image Source="f:/RedRix/RedRixLab.TimeLine/Resource/image/yellow_ellipse.png" Width="13" Height="13"/>
+        <StackPanel x:Name="yellowIcon" Orientation="Horizontal" Margin="942,528,61,256" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image Source="/Desktop.App;component/Resources/img/yellow_ellipse.png" Width="13" Height="13"/>
             <TextBlock Margin="3,5" VerticalAlignment="Center" FontFamily="PT Sans" TextWrapping="Wrap" TextAlignment="Center" Width="60">Поступил</TextBlock>
         </StackPanel>
 
 
 
-        <DataGrid x:Name="listApplicantsGrid" AutoGenerateColumns="True" Margin="15,560,62,-534" ColumnHeaderHeight="38" RowHeight="38" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalScrollBarVisibility="Visible">
+        <DataGrid x:Name="listApplicantsGrid" AutoGenerateColumns="True" Margin="15,560,62,0" ColumnHeaderHeight="38" RowHeight="38" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalScrollBarVisibility="Visible">
             <DataGrid.Resources>
 
             </DataGrid.Resources>
@@ -201,72 +164,85 @@
             Height="196" 
             Width="426"
             Margin="596,186,61,0" 
-            VerticalAlignment="Top">
+            VerticalAlignment="Top" BorderBrush="{x:Null}">
             <TabControl.Background>
-                <ImageBrush ImageSource="C:/REDRIX/RedRixLab.TimeLine/Resource/image/fon_port.png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_port.png"/>
             </TabControl.Background>
-            <TabItem  Margin="-5,0,0,0" Height="79" Width="103" Background="White" FontFamily="PT Sans" FontSize="10">
-                <TabItem.Header>
+
+            <TabItem  Margin="2,0,0,0" Height="79" Width="103" FontFamily="PT Sans" FontSize="10" BorderBrush="{x:Null}">
+                <TabItem.Background>
+                    <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_port.png"/>
+                </TabItem.Background>
+                <TabItem.Header >
                     <StackPanel Orientation="Vertical">
-                        <Image Source="C:/REDRIX/RedRixLab.TimeLine/Resource/image/icon_list.png" Width="14" Height="15"/>
+                        <Image Source="/Desktop.App;component/Resources/img/icon_list.png" Width="14" Height="15"/>
                         <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center">Расформировка списка</TextBlock>
                     </StackPanel>
                 </TabItem.Header>
-                <Grid Background="White" Margin="0,0,0,0">
+                <Grid Margin="0,0,0,0">
                     <StackPanel Orientation="Vertical">
-                        <Button Content="Сформировать список поступивших" Width="221" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0"/>
-                        <Button Content="Сформировать список не поступивших" Width="237" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0"/>
-                        <Button Content="Сформировать список непоступивших с нехваткой 1-5 баллов" Width="366" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0"/>
-                        <Button Content="Показать полный список" Width="156" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0"/>
+                        <Button Content="Сформировать список поступивших" Width="211" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="10,10,0,0"/>
+                        <Button Content="Сформировать список не поступивших" Width="227" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="10,10,0,0"/>
+                        <Button Content="Сформировать список непоступивших с нехваткой 1-5 баллов" Width="356" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="10,10,0,0"/>
+                        <Button Content="Показать полный список" Width="146" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="11,10,0,0"/>
                     </StackPanel>
                 </Grid>
             </TabItem>
-            <TabItem Margin="-5,0,0,0" Width="103" Background="White" FontFamily="PT Sans" FontSize="10">
+            <TabItem Margin="0,0,0,0" Width="103" FontFamily="PT Sans" FontSize="10" BorderBrush="{x:Null}">
+                <TabItem.Background>
+                    <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_filter.png"/>
+                </TabItem.Background>
                 <TabItem.Header>
-                    <StackPanel Orientation="Vertical">
-                        <Image Source="C:/REDRIX/RedRixLab.TimeLine/Resource/image/icon_print.png" Width="14" Height="15" />
+                    <StackPanel Orientation="Vertical" Height="43">
+                        <Image Source="/Desktop.App;component/Resources/img/icon_print.png" Width="14" Height="15" />
                         <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center"><Run Text="Печать списка"/></TextBlock>
                     </StackPanel>
                 </TabItem.Header>
-                <Grid Background="White" Margin="0,0,0,0">
+                <Grid Margin="1,0,4,0" Width="415">
                     <StackPanel Orientation="Vertical">
-                        <Button Content="Вывести на печать" Width="121" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0"/>
+                        <Button Content="Вывести на печать" Width="111" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="10,10,0,0"/>
                     </StackPanel>
                 </Grid>
             </TabItem>
-            <TabItem Margin="-5,0,0,0" Width="103" Background="White" FontFamily="PT Sans" FontSize="10">
+            <TabItem Margin="0,0,0,0" Width="103" FontFamily="PT Sans" FontSize="10" BorderBrush="{x:Null}">
+                <TabItem.Background>
+                    <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_filter.png"/>
+                </TabItem.Background>
                 <TabItem.Header>
                     <StackPanel Orientation="Vertical">
-                        <Image Source="f:/RedRix/RedRixLab.TimeLine/Resource/image/icon_sentlist.png" Width="14" Height="15"/>
+                        <Image Source="/Desktop.App;component/Resources/img/icon_sentlist.png" Width="14" Height="15"/>
                         <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center">Отправка списка на утверждение</TextBlock>
                     </StackPanel>
                 </TabItem.Header>
-                <Grid Background="White" Margin="0,0,0,0">
-                    <StackPanel Orientation="Vertical">
-                        <Button Content="Отправить методисту" Width="138" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0"/>
-                        <Button Content="Отправить декану факультета" Width="182" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0"/>
-                        <Button Content="Отправить ректору" Width="124" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0"/>
+                <Grid Margin="0,0,3,0">
+                    <StackPanel Orientation="Vertical" Margin="0,0,-5,0">
+                        <Button Content="Отправить методисту" Width="128" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="10,10,0,0"/>
+                        <Button Content="Отправить декану факультета" Width="172" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="10,10,0,0"/>
+                        <Button Content="Отправить ректору" Width="114" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="10,10,0,0"/>
                     </StackPanel>
                 </Grid>
             </TabItem>
-            <TabItem Margin="-5,0,0,0" Width="103" Background="White" FontFamily="PT Sans" FontSize="10">
+            <TabItem Margin="0,0,0,0" Width="110" FontFamily="PT Sans" FontSize="10" BorderBrush="{x:Null}" Foreground="Black">
+                <TabItem.Background>
+                    <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_filter.png"/>
+                </TabItem.Background>
                 <TabItem.Header>
                     <StackPanel Orientation="Vertical">
-                        <Image Source="f:/RedRix/RedRixLab.TimeLine/Resource/image/icon_impexp.png" Width="14" Height="15"/>
+                        <Image Source="/Desktop.App;component/Resources/img/icon_impexp.png" Width="14" Height="15"/>
                         <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center">Импорт/Экспорт списка</TextBlock>
                     </StackPanel>
                 </TabItem.Header>
-                <Grid Background="White" Margin="0,0,0,0">
+                <Grid Margin="0,0,0,0">
                     <StackPanel Orientation="Vertical">
-                        <Button Content="Экспорт расписания" Width="131" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0"/>
-                        <Button Width="147" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0">
+                        <Button Content="Экспорт расписания" Width="121" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="11,10,0,0"/>
+                        <Button Width="137" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="10,10,0,0">
                             <TextBlock>
                                 <Run FontSize="12" Foreground="Black" FontWeight="Normal" FontFamily="PT Sans" >Импорт списка в </Run>
                                 <Run FontSize="12" Foreground="Green" FontFamily="PT Sans" FontWeight="Bold">.EXEL</Run>
                             </TextBlock>
                         </Button>
-                        <Button Width="156" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="0,10,0,0">
-                            <TextBlock>
+                        <Button Width="146" Background="White" FontSize="12" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Template="{StaticResource ButtonTemplate}" Margin="10,10,0,0">
+                            <TextBlock Width="136">
                                 <Run FontSize="12" Foreground="Black" FontWeight="Normal" FontFamily="PT Sans" >Импорт списка в </Run>
                                 <Run FontSize="12" Foreground="Blue" FontFamily="PT Sans" FontWeight="Bold">.WORD</Run>
                             </TextBlock>
@@ -276,14 +252,13 @@
             </TabItem>
         </TabControl>
         <DockPanel
-            x:Name="InsertEnrolle"
+            x:Name="PanelInsertEnrolle"
             HorizontalAlignment="Left" 
             Height="195" 
             Width="566"
             LastChildFill="False" 
-            Margin="1490,300,-973,0" 
-            VerticalAlignment="Top" 
-            Background="White"
+            Margin="-2647,300,0,0" 
+            VerticalAlignment="Top"
             >
             <Label 
                 Content="TLid" 
@@ -329,7 +304,6 @@
                 x:Name="TextBoxTLid"
                 Height="30" 
                 TextWrapping="Wrap" 
-                Text="TextBox" 
                 VerticalAlignment="Top" 
                 Width="101"
                 TextAlignment="Center"
@@ -345,7 +319,6 @@
                 x:Name="TextBoxNumberWork"
                 Height="30" 
                 TextWrapping="Wrap" 
-                Text="TextBox" 
                 VerticalAlignment="Top" 
                 Width="88"
                 TextAlignment="Center"
@@ -361,7 +334,6 @@
                 x:Name="TextBoxFIO"
                 Height="30" 
                 TextWrapping="Wrap" 
-                Text="TextBox" 
                 VerticalAlignment="Top" 
                 Width="186"
                 TextAlignment="Center"
@@ -377,7 +349,6 @@
                 x:Name="TextBoxSerialPasp"
                 Height="30" 
                 TextWrapping="Wrap" 
-                Text="TextBox" 
                 VerticalAlignment="Top" 
                 Width="45"
                 TextAlignment="Center"
@@ -393,7 +364,6 @@
                 x:Name="TextBoxNumberPasp"
                 Height="30" 
                 TextWrapping="Wrap" 
-                Text="TextBox" 
                 VerticalAlignment="Top" 
                 Width="66"
                 TextAlignment="Center"
@@ -438,17 +408,138 @@
             <Label 
                 Content="Льготы" 
                 Height="22"
-                Margin="-70,78,0,0" 
+                Margin="-52,78,0,0" 
                 FontWeight="Bold" 
                 FontFamily="PT Sans"
                 FontSize="12"
                 Width="60" 
                 HorizontalAlignment="Left" 
                 VerticalAlignment="Top"/>
-            
+            <Button             
+                x:Name="PickUpDock" 
+                HorizontalAlignment="Left" 
+                Margin="-551,100,0,0" 
+                VerticalAlignment="Top" 
+                Width="28" 
+                Height="30"                
+                Visibility="Visible"
+                Template="{StaticResource ButtonIconTemplate}"
+                Click="PickUpDock_Click" 
+                Content="{StaticResource blue_ellipse}" >
+
+            </Button>
+            <TextBox 
+                x:Name="InsertDatePickUpDocText"
+                Height="30" 
+                TextWrapping="Wrap" 
+                VerticalAlignment="Top" 
+                Width="72"
+                TextAlignment="Center"
+                Template="{StaticResource TextBoxTemplate}" 
+                Margin="-959,100,0,0" 
+                FontFamily="PT Sans" 
+                FontSize="10" 
+                HorizontalAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="#EFEFEF"
+                IsEnabled="False"
+                />
+            <TextBox                
+                Height="30" 
+                TextWrapping="Wrap" 
+                VerticalAlignment="Top" 
+                Width="35"
+                TextAlignment="Center"
+                Template="{StaticResource TextBoxTemplate}" 
+                Margin="-830,100,0,0" 
+                FontFamily="PT Sans" 
+                FontSize="10" 
+                HorizontalAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="#EFEFEF"
+                />
+            <TextBox                
+                Height="30" 
+                TextWrapping="Wrap" 
+                VerticalAlignment="Top" 
+                Width="35"
+                TextAlignment="Center"
+                Template="{StaticResource TextBoxTemplate}" 
+                Margin="-748,100,0,0" 
+                FontFamily="PT Sans" 
+                FontSize="10" 
+                HorizontalAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="#EFEFEF"
+                />
+            <TextBox                
+                Height="30" 
+                TextWrapping="Wrap" 
+                VerticalAlignment="Top" 
+                Width="35"
+                TextAlignment="Center"
+                Template="{StaticResource TextBoxTemplate}" 
+                Margin="-668,100,0,0" 
+                FontFamily="PT Sans" 
+                FontSize="10" 
+                HorizontalAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="#EFEFEF"
+                />
+            <TextBox                
+                Height="30" 
+                TextWrapping="Wrap" 
+                VerticalAlignment="Top" 
+                Width="35"
+                TextAlignment="Center"
+                Template="{StaticResource TextBoxTemplate}" 
+                Margin="-572,100,0,0" 
+                FontFamily="PT Sans" 
+                FontSize="10" 
+                HorizontalAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="#EFEFEF"
+                />
+            <TextBox                
+                Height="30" 
+                TextWrapping="Wrap" 
+                VerticalAlignment="Top" 
+                Width="203"
+                TextAlignment="Center"
+                Template="{StaticResource TextBoxTemplate}" 
+                Margin="-326,100,0,0" 
+                FontFamily="PT Sans" 
+                FontSize="10" 
+                HorizontalAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="#EFEFEF"
+                />
+            <Button             
+                x:Name="Facilities" 
+                HorizontalAlignment="Left" 
+                Margin="-38,100,0,0" 
+                VerticalAlignment="Top" 
+                Width="28" 
+                Height="30"
+                Background="White"
+                Template="{StaticResource ButtonIconTemplate}"
+                Content="{StaticResource blue_ellipse_empty}">
+            </Button>
+            <Button 
+                Margin="-154,128,0,0"
+                Content="Добавить абитуриента"                  
+                HorizontalAlignment="Left"                
+                Width="145" 
+                Height="30"
+                FontFamily="PT Sans" 
+                FontWeight="Bold" 
+                Foreground="#FF0E8BDC" 
+                Template="{StaticResource ButtonComTemplate}" 
+                />
+
+
 
         </DockPanel>
-        <ScrollBar HorizontalAlignment="Left" Margin="1066,0,0,0" VerticalAlignment="Top" Height="800"/>
         <Button 
             Content="Скрыть фильтры"
             x:Name="FilteFlagButton" 
@@ -459,6 +550,221 @@
             Height="30"
             Template="{StaticResource ButtonComTemplate}" 
             Click="Button_Click_1"/>
+        <DockPanel 
+            x:Name="PanelCreatedNewList"
+            HorizontalAlignment="Left" 
+            Height="220" 
+            Width="566"
+            LastChildFill="False" 
+            Margin="-1719,186,0,0" 
+            VerticalAlignment="Top">
+            <TextBlock 
+                Width="107" 
+                Height="15" 
+                Margin="15,20,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Создать список" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12" Background="White">
+            </TextBlock>
+            <Button 
+                x:Name="OpenPanelSearchList"
+                Width="97" 
+                Margin="335,20,0,185" 
+                HorizontalAlignment="Left" 
+                Content="Открыть списки" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12"
+                Foreground="#FF0E8BDC"
+                Template="{StaticResource ButtonTemplate}" Height="15" Click="OpenPanelSearchList_Click" />
+
+            <TextBlock 
+                Width="107" 
+                Height="15" 
+                Margin="-540,50,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Форма обучения" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12">
+            </TextBlock>
+            <ComboBox Height="30" VerticalAlignment="Top" Width="323" HorizontalAlignment="Left" Margin="-540,73,0,0">
+                <Border 
+                    CornerRadius="10,0,0,10"
+                    BorderThickness="1,1,0,1"/>
+            </ComboBox>
+            <TextBlock 
+                Width="107" 
+                Height="15" 
+                Margin="-200,50,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Специальность" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold" 
+                FontSize="12">
+            </TextBlock>
+            <TextBlock 
+                Width="90" 
+                Height="15" 
+                Margin="-80,50,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Набор кол-во" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold" 
+                FontSize="12">
+            </TextBlock>
+            <ComboBox Height="30" VerticalAlignment="Top" Width="98" Margin="-328,73,0,0">
+                <Border 
+                    CornerRadius="10,0,0,10"
+                    BorderThickness="1,1,0,1"/>
+            </ComboBox>
+            <TextBox Height="30" TextWrapping="Wrap"  VerticalAlignment="Top" Width="85" Margin="-100,73,0,0" MaxLines="1" Template="{StaticResource TextBoxTemplate}" FontFamily="PT Sans" FontSize="10" TextAlignment="Center" Background="#EFEFEF"/>
+            <Button
+                x:Name="CreateNewList"
+                Margin="-138,32,0,0"
+                Content="Создасть список" 
+                Grid.Column="1" 
+                HorizontalAlignment="Left"                
+                Width="130" 
+                Height="30"
+                FontFamily="PT Sans" 
+                FontWeight="Bold" 
+                Foreground="#FF0E8BDC" 
+                Template="{StaticResource ButtonComTemplate}" 
+                Click="CreateNewList_Click" 
+                />
+
+        </DockPanel>
+        <DockPanel 
+            x:Name="PanelSearchList"
+            HorizontalAlignment="Left" 
+            Height="309" 
+            Width="566"
+            LastChildFill="False" 
+            Margin="-942,186,0,0" 
+            VerticalAlignment="Top">
+            <TextBlock 
+                Width="107" 
+                Height="15" 
+                Margin="15,20,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Поиск списка" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12" Background="White"/>
+            <Button
+                x:Name="OpenCreatedNewList"
+                Width="97" 
+                Margin="335,20,0,274" 
+                HorizontalAlignment="Left" 
+                Content="Создать список" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12" 
+                Foreground="#FF0E8BDC"
+                Template="{StaticResource ButtonTemplate}" 
+                Click="OpenCreatedNewList_Click" 
+                />
+            <TextBlock 
+                Width="107" 
+                Height="15" 
+                Margin="-540,50,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Форма обучения" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12"/>
+            <ComboBox Height="30" VerticalAlignment="Top" Width="209" HorizontalAlignment="Left" Margin="-540,73,0,0">
+                <Border 
+                    CornerRadius="10,0,0,10"
+                    BorderThickness="1,1,0,1"/>
+            </ComboBox>
+            <TextBlock 
+                Width="107" 
+                Height="15" 
+                Margin="-322,50,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Специальность" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold" 
+                FontSize="12"/>
+            <TextBlock 
+                Width="90" 
+                Height="15" 
+                Margin="-214,50,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Дата создания" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold" 
+                FontSize="12"/>
+            <TextBlock 
+                Width="101" 
+                Height="15" 
+                Margin="-111,50,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Дата изменения" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold" 
+                FontSize="12"/>
+            <ComboBox Height="30" VerticalAlignment="Top" Width="98" Margin="-546,73,0,0">
+                <Border 
+                    CornerRadius="10,0,0,10"
+                    BorderThickness="1,1,0,1"/>
+            </ComboBox>
+            <ComboBox Height="30" VerticalAlignment="Top" Width="98" Margin="-337,73,0,0">
+                <Border 
+                    CornerRadius="10,0,0,10"
+                    BorderThickness="1,1,0,1"/>
+            </ComboBox>
+            <ComboBox Height="30" VerticalAlignment="Top" Width="98" Margin="-126,73,0,0">
+                <Border 
+                    CornerRadius="10,0,0,10"
+                    BorderThickness="1,1,0,1"/>
+            </ComboBox>
+            <DataGrid 
+                Height="130" 
+                VerticalAlignment="Top" 
+                Width="536" 
+                Margin="-543,123,0,0"
+                ColumnHeaderHeight="20" 
+                RowHeight="38" 
+                HorizontalContentAlignment="Left" 
+                FontSize="10">
+                <DataGrid.Resources>
+
+                </DataGrid.Resources>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="№" Binding="{Binding Path=Number}" Width="24" FontSize="10"/>
+                    <DataGridTextColumn Header="Наименование" Binding="{Binding Path=FIO}" Width="265"  FontSize="10"/>
+                    <DataGridTextColumn Header="Дата создания" Binding="{Binding Path=Price}" Width="90" FontSize="10"/>
+                    <DataGridTextColumn Header="Дата изменения" Binding="{Binding Path=Price3}" Width="90" FontSize="10"/>
+                    <DataGridTextColumn Header="Удалить" Binding="{Binding Path=Price3}" Width="55" FontSize="10"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button 
+                x:Name="ShowListEnrolle"
+                Margin="-133,265,0,14"
+                Content="Открыть список" 
+                Grid.Column="1" 
+                HorizontalAlignment="Left"                
+                Width="130"
+                FontFamily="PT Sans" 
+                FontWeight="Bold" 
+                Foreground="#FF0E8BDC" 
+                Template="{StaticResource ButtonComTemplate}" 
+                Click="ShowListEnrolle_Click"/>
+        </DockPanel>
         <!--   <RadioButton Content="Не поступил" HorizontalAlignment="Left" Margin="846,528,146,256" VerticalAlignment="Top" FontFamily="PT Sans"/>
         <RadioButton Content="Поступил" HorizontalAlignment="Left" Margin="942,528,61,256" VerticalAlignment="Top" FontFamily="PT Sans"/>
         -->

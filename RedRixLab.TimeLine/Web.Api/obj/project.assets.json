@@ -106,11 +106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\REDRIX\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj",
+      "projectUniqueName": "C:\\REDRIX\\RedRixLab.TimeLine last\\Web.Api\\Web.Api.csproj",
       "projectName": "Web.Api",
-      "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj",
+      "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine last\\Web.Api\\Web.Api.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\REDRIX\\RedRixLab.TimeLine\\Web.Api\\obj\\",
+      "outputPath": "C:\\REDRIX\\RedRixLab.TimeLine last\\Web.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -129,14 +129,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\REDRIX\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
-              "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj"
+            "C:\\REDRIX\\RedRixLab.TimeLine last\\DataAccess.Sql\\DataAccess.Sql.csproj": {
+              "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine last\\DataAccess.Sql\\DataAccess.Sql.csproj"
             },
-            "C:\\REDRIX\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
-              "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj"
+            "C:\\REDRIX\\RedRixLab.TimeLine last\\Interfaces.Sql\\Interfaces.Sql.csproj": {
+              "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine last\\Interfaces.Sql\\Interfaces.Sql.csproj"
             },
-            "C:\\REDRIX\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj": {
-              "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj"
+            "C:\\REDRIX\\RedRixLab.TimeLine last\\Services.Sql\\Services.Sql.csproj": {
+              "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine last\\Services.Sql\\Services.Sql.csproj"
             }
           }
         }

@@ -1,4 +1,4 @@
-﻿namespace Api.Models.Sql.ConfigModels
+﻿namespace Models.Sql.ConfigModels
 {
     public class AppConfig
     {

@@ -298,6 +298,10 @@
         }
       },
       "Models.Sql/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.4",
+          "Microsoft.Extensions.Identity.Stores": "2.2.0"
+        },
         "runtime": {
           "Models.Sql.dll": {}
         },

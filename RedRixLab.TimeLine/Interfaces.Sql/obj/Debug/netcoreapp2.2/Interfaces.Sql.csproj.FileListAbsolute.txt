@@ -10,15 +10,79 @@ C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcor
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.deps.json
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csprojAssemblyReference.cache
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CoreCompileInputs.cache
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfoInputs.cache
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfo.cs
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
-F:\RedRix\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.deps.json
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csprojAssemblyReference.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CoreCompileInputs.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfoInputs.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfo.cs
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.deps.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csprojAssemblyReference.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CoreCompileInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfoInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfo.cs
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.deps.json
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csprojAssemblyReference.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CoreCompileInputs.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfoInputs.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfo.cs
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.deps.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csprojAssemblyReference.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CoreCompileInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfoInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfo.cs
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+D:\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.deps.json
+D:\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+D:\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+D:\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+D:\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+D:\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csprojAssemblyReference.cache
+D:\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CoreCompileInputs.cache
+D:\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfoInputs.cache
+D:\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfo.cs
+D:\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
+D:\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
+D:\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.deps.json
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csprojAssemblyReference.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CoreCompileInputs.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfoInputs.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfo.cs
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb

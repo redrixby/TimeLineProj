@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\REDRIX\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+      "projectUniqueName": "C:\\REDRIX\\RedRixLab.TimeLine last\\DataAccess.Models\\DataAccess.Models.csproj",
       "projectName": "DataAccess.Models",
-      "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+      "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine last\\DataAccess.Models\\DataAccess.Models.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\REDRIX\\RedRixLab.TimeLine\\DataAccess.Models\\obj\\",
+      "outputPath": "C:\\REDRIX\\RedRixLab.TimeLine last\\DataAccess.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

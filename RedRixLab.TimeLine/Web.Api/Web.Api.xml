@@ -4,12 +4,12 @@
         <name>Web.Api</name>
     </assembly>
     <members>
-        <member name="T:Api.Web.Api.Config.StartupOptions">
+        <member name="T:Web.Api.Config.StartupOptions">
             <summary>
             Настройки для запуска приложения
             </summary>
         </member>
-        <member name="F:Api.Web.Api.Config.StartupOptions.EnableSwagger">
+        <member name="F:Web.Api.Config.StartupOptions.EnableSwagger">
             <summary>
             Swagger включен
             </summary>

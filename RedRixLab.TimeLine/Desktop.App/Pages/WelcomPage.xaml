@@ -5,16 +5,16 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Desktop.App.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="800" d:DesignWidth="1083"
-      MinWidth="1083" MinHeight="800"
-      Title="WelcomPage">
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="WelcomPage" Width="1000">
 
-    <Grid>
-
+    <Grid Width="1000">
         <Grid.Background>
-            <ImageBrush ImageSource="C:/REDRIX/RedRixLab.TimeLine/Resource/image/back_main.png" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/Desktop.App;component/Resources/img/back_main.png" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Label Content="welcom page" HorizontalAlignment="Left" Margin="282,140,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label Content="Добрый день" Margin="286,36,216,0" VerticalAlignment="Top" Height="50" FontFamily="Palace Script MT" FontSize="48" OpacityMask="#FF787878" HorizontalAlignment="Center"/>
+        <Label Content="Валентина Юрьевна" Margin="216,107,133,0" VerticalAlignment="Top" Height="50" FontFamily="Palace Script MT" FontSize="48" OpacityMask="#FF787878" HorizontalAlignment="Center"/>
+        <Label Content="Выберете раздел, что бы начать работу." Margin="94,206,10,0" VerticalAlignment="Top" Height="57" FontFamily="Palace Script MT" FontSize="48" OpacityMask="#FF787878" HorizontalAlignment="Center" Width="896"/>
 
     </Grid>
 </Page>

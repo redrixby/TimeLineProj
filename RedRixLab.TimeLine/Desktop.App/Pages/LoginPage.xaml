@@ -39,6 +39,10 @@
 
     <Grid>
 
+        <Grid.Background>
+            <ImageBrush ImageSource="/Desktop.App;component/Resources/img/back_main.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
         <DockPanel Name="LoginDockPanel"  HorizontalAlignment="Left" Height="268" Margin="231,263,-325,0" VerticalAlignment="Top" Width="390" MaxWidth="390" MaxHeight="268" Background="#B20E8BDC" MinWidth="390" MinHeight="267" >
             <Label Content="Вход"  HorizontalAlignment="Left" Margin="15,24,-89,0" VerticalAlignment="Top" FontFamily="PT Sans" BorderBrush="White" FontSize="26" FontWeight="Bold" Foreground="White"/>
             <Label Content="Логин"  HorizontalAlignment="Left" Margin="15,82,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="PT Sans" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.533,0.576"/>

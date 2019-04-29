@@ -3,6 +3,7 @@ C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.dev.json
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.dll
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.xml
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
@@ -23,30 +24,155 @@ C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CopyComplete
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.dll
 C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.pdb
-C:\Users\gvozdik\source\repos\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.xml
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.deps.json
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.json
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.dev.json
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.dll
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.pdb
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.xml
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.dll
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.dll
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.pdb
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
-F:\RedRix\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.pdb
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csprojAssemblyReference.cache
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CoreCompileInputs.cache
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cache
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cs
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfoInputs.cache
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfo.cs
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorTargetAssemblyInfo.cache
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CopyComplete
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.dll
-F:\RedRix\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csprojAssemblyReference.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cs
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfoInputs.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfo.cs
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.deps.json
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.json
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.dev.json
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorTargetAssemblyInfo.cache
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CopyComplete
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\FeRan\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csprojAssemblyReference.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cs
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfoInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfo.cs
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.deps.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.dev.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorTargetAssemblyInfo.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CopyComplete
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.deps.json
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.json
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.dev.json
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csprojAssemblyReference.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cs
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfoInputs.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfo.cs
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorTargetAssemblyInfo.cache
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CopyComplete
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\gvozdik\Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.deps.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.dev.json
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csprojAssemblyReference.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cs
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfoInputs.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfo.cs
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorTargetAssemblyInfo.cache
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CopyComplete
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\rabeckiy\Desktop\RedRixLab.TimeLine\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.pdb
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.deps.json
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.json
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.dev.json
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.dll
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.pdb
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.xml
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.dll
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.dll
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.pdb
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+D:\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csprojAssemblyReference.cache
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CoreCompileInputs.cache
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cache
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cs
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfoInputs.cache
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfo.cs
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorTargetAssemblyInfo.cache
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CopyComplete
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.dll
+D:\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.deps.json
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.json
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.runtimeconfig.dev.json
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Web.Api.xml
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Services.Sql.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csprojAssemblyReference.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CoreCompileInputs.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorAssemblyInfo.cs
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfoInputs.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.AssemblyInfo.cs
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.csproj.CopyComplete
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.dll
+C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\obj\Debug\netcoreapp2.2\Web.Api.pdb

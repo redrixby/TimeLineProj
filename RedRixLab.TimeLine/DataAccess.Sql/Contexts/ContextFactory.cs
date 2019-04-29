@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Api.DataAccess.Sql.Interfaces;
+using DataAccess.Sql.Interfaces;
 
-namespace Api.DataAccess.Sql.Contexts
+namespace DataAccess.Sql.Contexts
 {
     public class ContextFactory : IContextFactory
     {

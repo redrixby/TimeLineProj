@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\REDRIX\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+      "projectUniqueName": "C:\\REDRIX\\RedRixLab.TimeLine last\\Models.Sql\\Models.Sql.csproj",
       "projectName": "Models.Sql",
-      "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+      "projectPath": "C:\\REDRIX\\RedRixLab.TimeLine last\\Models.Sql\\Models.Sql.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\REDRIX\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
+      "outputPath": "C:\\REDRIX\\RedRixLab.TimeLine last\\Models.Sql\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {}
+    "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {}
   },
   "projects": {
-    "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
+    "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
         "projectName": "DataAccess.Models",
-        "projectPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\obj\\",
+        "projectPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+        "packagesPath": "C:\\Users\\Моя прелесть\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Моя прелесть\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -62,23 +60,21 @@
         }
       }
     },
-    "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
+    "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
+        "projectUniqueName": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
         "projectName": "DataAccess.Sql",
-        "projectPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Sql\\obj\\",
+        "projectPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
+        "packagesPath": "C:\\Users\\Моя прелесть\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Моя прелесть\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -90,8 +86,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
-                "projectPath": "F:\\RedRix\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj"
+              "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
+                "projectPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj"
               }
             }
           }
