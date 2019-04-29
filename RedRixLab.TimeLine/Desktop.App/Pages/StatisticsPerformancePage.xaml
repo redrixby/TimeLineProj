@@ -1,0 +1,164 @@
+﻿<Page x:Class="Desktop.App.Pages.StatisticsPerformancePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Desktop.App.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1083"
+      MinWidth="1083" MinHeight="800"
+      Title="StatisticsPerformancePage">
+    <Page.Resources>
+        <ControlTemplate x:Key="ButtonTemplate" TargetType="Button" >
+            <Border BorderBrush="White" BorderThickness="0"
+                     Margin="0 0 0 0">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="White"></GradientStop>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <ContentPresenter RecognizesAccessKey="True" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate x:Key="TextBoxTemplate" TargetType="TextBox">
+            <Border CornerRadius="7" 
+                     BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate x:Key="ButtonComTemplate" TargetType="Button" >
+            <Border BorderThickness="0" CornerRadius="10"
+                    TextBlock.Foreground="#0E8BDC" Margin="0 0 0 0" MaxHeight="30">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#330E8BDC"></GradientStop>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <ContentPresenter RecognizesAccessKey="True" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
+            </Border>
+        </ControlTemplate>
+        <ControlTemplate x:Key="ButtonIconTemplate" TargetType="Button" >
+            <Border BorderThickness="0" 
+                    TextBlock.Foreground="#0E8BDC" 
+                    Margin="0 0 0 0">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="White"></GradientStop>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <ContentPresenter RecognizesAccessKey="True" VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
+            </Border>
+        </ControlTemplate>
+        <Image x:Key="blue_ellipse_empty" Source="/Desktop.App;component/Resources/img/blue_ellipse_empty.png"/>
+        <Image x:Key="blue_ellipse" Source="/Desktop.App;component/Resources/img/blue_ellipse.png"/>
+
+
+    </Page.Resources>
+
+    <Grid Margin="0" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Desktop.App;component/Resources/img/back_main.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+
+        <Label 
+            Content="Статистика и успеваемость" 
+            HorizontalAlignment="Left" 
+            Margin="15,50,0,0" 
+            VerticalAlignment="Top" FontFamily="PT Sans" FontSize="36" FontWeight="Bold"/>
+
+        <Label 
+            Content="Фильтр" 
+            HorizontalAlignment="Left" 
+            Margin="15,152,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="PT Sans" 
+            FontSize="16" 
+            FontWeight="Bold"/>
+
+        <StackPanel 
+            HorizontalAlignment="Left" 
+            Height="81" 
+            Width="998" 
+            Margin="15,186,0,0" 
+            VerticalAlignment="Top">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_filter_student.png"/>
+            </StackPanel.Background>
+            <Button Height="81" Width="85" HorizontalAlignment="Left" Margin="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" >
+                <StackPanel Orientation="Vertical" Height="62">
+                    <Image Source="/Desktop.App;component/Resources/img/icon/icon_list_stat.png" Width="14" Height="15"/>
+                    <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center" FontSize="10">Успеваемость деканата</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Height="81" Width="85" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,-81,0,0" BorderBrush="{x:Null}" Background="{x:Null}" >
+                <StackPanel Orientation="Vertical" Height="61">
+                    <Image Source="/Desktop.App;component/Resources/img/icon/icon_list_stat.png" Width="14" Height="15"/>
+                    <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center" FontSize="10">Успеваемость института</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Height="81" Width="85" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,-81,0,0" BorderBrush="{x:Null}" Background="{x:Null}" >
+                <StackPanel Orientation="Vertical" Height="62">
+                    <Image Source="/Desktop.App;component/Resources/img/icon/icon_list_stat.png" Width="14" Height="15"/>
+                    <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center" FontSize="10">Статистика факультета (Г-К-С-ФО)</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Height="81" Width="85" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="255,-81,0,0" BorderBrush="{x:Null}" Background="{x:Null}" >
+                <StackPanel Orientation="Vertical" Height="61">
+                    <Image Source="/Desktop.App;component/Resources/img/icon/icon_list_stat.png" Width="14" Height="15"/>
+                    <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center" FontSize="10">Статистика факультета (Г-С-К-ФО)</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Height="81" Width="85" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340,-81,0,0" BorderBrush="{x:Null}" Background="{x:Null}" >
+                <StackPanel Orientation="Vertical" Height="61">
+                    <Image Source="/Desktop.App;component/Resources/img/icon/icon_list_stat.png" Width="14" Height="15"/>
+                    <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center" FontSize="10">Статистика возрастов</TextBlock>
+                </StackPanel>
+            </Button>
+
+
+        </StackPanel>
+        <Label 
+            Content="Успеваемость деканата" 
+            HorizontalAlignment="Left" 
+            Margin="15,304,0,0" 
+            VerticalAlignment="Top"
+            FontFamily="PT Sans" 
+            FontSize="16" 
+            FontWeight="Bold"/>
+
+
+        <Button 
+            Height="30" 
+            Width="125" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top" 
+            Margin="755,304,0,0" 
+            Template="{StaticResource ButtonComTemplate}"
+            FontFamily="PT Sans" 
+            FontWeight="Bold" 
+            Foreground="#FF0E8BDC"
+            Content="Сохранить"
+            ></Button>
+        <Button 
+            Height="30" 
+            Width="125" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top" 
+            Margin="889,304,0,0" 
+            Template="{StaticResource ButtonComTemplate}"
+            FontFamily="PT Sans" 
+            FontWeight="Bold" 
+            Foreground="#FF0E8BDC"
+            Content="Распечатать"
+            ></Button>
+        <Frame
+            Margin="15,352,0,0" Width="998" HorizontalAlignment="Left">
+            <Frame.Background>
+                <ImageBrush ImageSource="/Desktop.App;component/Resources/img/back_stat.png"/>
+            </Frame.Background>
+
+        </Frame>
+
+    </Grid>
+</Page>

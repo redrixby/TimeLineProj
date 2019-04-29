@@ -24,5 +24,10 @@ namespace Desktop.App.Pages
         {
             InitializeComponent();
         }
+
+        private void TabItem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

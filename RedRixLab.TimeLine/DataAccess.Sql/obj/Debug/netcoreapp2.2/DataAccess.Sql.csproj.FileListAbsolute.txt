@@ -82,3 +82,8 @@ C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\D
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CopyComplete
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.dll
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csprojAssemblyReference.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CoreCompileInputs.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfoInputs.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfo.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.pdb

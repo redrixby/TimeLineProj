@@ -118,3 +118,42 @@ C:\REDRIX\RedRixLab.TimeLine last\Desktop.App\obj\Debug\Desktop.App.exe
 C:\REDRIX\RedRixLab.TimeLine last\Desktop.App\obj\Debug\Desktop.App.pdb
 C:\REDRIX\RedRixLab.TimeLine last\Desktop.App\obj\Debug\Pages\Administration.g.cs
 C:\REDRIX\RedRixLab.TimeLine last\Desktop.App\obj\Debug\Pages\Administration.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Desktop.App.csprojAssemblyReference.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\MainWindow.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\Administration.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\EnrolleePage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\LoginPage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\MenuPage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\StudentListPage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\WelcomPage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\App.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Desktop.App_MarkupCompile.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Desktop.App_MarkupCompile.lref
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Desktop.App.exe
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Desktop.App.pdb
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\bin\Debug\Desktop.App.exe.config
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\bin\Debug\Desktop.App.exe
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\MainWindow.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\Administration.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\EnrolleePage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\LoginPage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\MenuPage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\StudentListPage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\WelcomPage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Desktop.App.g.resources
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Desktop.App.Properties.Resources.resources
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Desktop.App.csproj.GenerateResource.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Desktop.App.csproj.CoreCompileInputs.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\bin\Debug\Desktop.App.pdb
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\AcademicTranscriptPage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\DebtorsHonorsPage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\ExaminationSheetsPage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\GroupDistributionPage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\StatisticsPerformancePage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\StudentSearchPage.g.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\AcademicTranscriptPage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\DebtorsHonorsPage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\ExaminationSheetsPage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\GroupDistributionPage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\StatisticsPerformancePage.baml
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\Pages\StudentSearchPage.baml

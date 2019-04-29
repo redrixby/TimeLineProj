@@ -124,3 +124,8 @@ C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\S
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Services.Sql\obj\Debug\netcoreapp2.2\Services.Sql.csproj.CopyComplete
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Services.Sql\obj\Debug\netcoreapp2.2\Services.Sql.dll
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Services.Sql\obj\Debug\netcoreapp2.2\Services.Sql.pdb
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Services.Sql\obj\Debug\netcoreapp2.2\Services.Sql.csprojAssemblyReference.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Services.Sql\obj\Debug\netcoreapp2.2\Services.Sql.csproj.CoreCompileInputs.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Services.Sql\obj\Debug\netcoreapp2.2\Services.Sql.AssemblyInfoInputs.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Services.Sql\obj\Debug\netcoreapp2.2\Services.Sql.AssemblyInfo.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Services.Sql\obj\Debug\netcoreapp2.2\Services.Sql.pdb

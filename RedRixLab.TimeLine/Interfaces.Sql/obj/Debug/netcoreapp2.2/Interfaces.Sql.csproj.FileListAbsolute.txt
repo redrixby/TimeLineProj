@@ -86,3 +86,8 @@ C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\I
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CopyComplete
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.dll
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csprojAssemblyReference.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.csproj.CoreCompileInputs.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfoInputs.cache
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.AssemblyInfo.cs
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Interfaces.Sql\obj\Debug\netcoreapp2.2\Interfaces.Sql.pdb

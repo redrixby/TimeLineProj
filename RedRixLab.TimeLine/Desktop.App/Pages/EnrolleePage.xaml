@@ -425,7 +425,7 @@
                 Visibility="Visible"
                 Template="{StaticResource ButtonIconTemplate}"
                 Click="PickUpDock_Click" 
-                Content="{StaticResource blue_ellipse}" >
+                Content="{StaticResource blue_ellipse_empty}" >
 
             </Button>
             <TextBox 
@@ -523,7 +523,7 @@
                 Height="30"
                 Background="White"
                 Template="{StaticResource ButtonIconTemplate}"
-                Content="{StaticResource blue_ellipse_empty}">
+                Content="{StaticResource blue_ellipse_empty}"> 
             </Button>
             <Button 
                 Margin="-154,128,0,0"

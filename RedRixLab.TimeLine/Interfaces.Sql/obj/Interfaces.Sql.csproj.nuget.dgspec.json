@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {}
+    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
+    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
+        "projectUniqueName": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
         "projectName": "Interfaces.Sql",
-        "projectPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
-        "packagesPath": "C:\\Users\\Моя прелесть\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\obj\\",
+        "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Моя прелесть\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -30,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
-                "projectPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
+              "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+                "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
               }
             }
           }
@@ -60,21 +62,23 @@
         }
       }
     },
-    "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "projectUniqueName": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
         "projectName": "Models.Sql",
-        "projectPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
-        "packagesPath": "C:\\Users\\Моя прелесть\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Моя прелесть\\Downloads\\Telegram Desktop\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
+        "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Моя прелесть\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

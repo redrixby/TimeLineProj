@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Desktop.App.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="800" d:DesignWidth="1083"
       MinWidth="1083" MinHeight="800"
       Title="StudentListPage">
     <Page.Resources>
@@ -55,68 +55,11 @@
 
     </Page.Resources>
 
-    <Grid Margin="0,-3,0,0" >
+    <Grid Margin="0" >
         <Grid.Background>
             <ImageBrush ImageSource="/Desktop.App;component/Resources/img/back_main.png" Stretch="UniformToFill"/>
         </Grid.Background>
-        <DockPanel 
-            HorizontalAlignment="Left" 
-            Height="286" 
-            Width="566" 
-            Margin="15,186,0,0" 
-            VerticalAlignment="Top"
-            LastChildFill="True">
-            <DockPanel.Background>
-                <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_filter_student.png"/>
-            </DockPanel.Background>
 
-            <TextBlock DockPanel.Dock="Left"
-                Width="107" 
-                Height="15" 
-                Margin="15,20,0,0" 
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top" 
-                Text="Поиск списка" 
-                FontFamily="PT Sans" 
-                FontWeight="Bold"
-                FontSize="12"/>
-            <TextBlock DockPanel.Dock="Left"
-                Width="107" 
-                Height="15" 
-                Margin="161,20,0,0" 
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top" 
-                Text="Факультет" 
-                FontFamily="PT Sans" 
-                FontWeight="Bold"
-                FontSize="12"/>
-            <ComboBox DockPanel.Dock="Left" Width="240" Height="30" Margin="-500,-170,0,0"></ComboBox>
-            <ComboBox DockPanel.Dock="Left" Width="276" Height="30" Margin="-115,43,0,213"></ComboBox>
-            <TextBlock DockPanel.Dock="Left"
-                Width="107" 
-                Height="15" 
-                Margin="-530,83,0,0" 
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top" 
-                Text="Специальность" 
-                FontFamily="PT Sans" 
-                FontWeight="Bold"
-                FontSize="12"/>
-            <ComboBox DockPanel.Dock="Left" Width="536" Height="30" Margin="-530,103,0,153"></ComboBox>
-            <TextBlock DockPanel.Dock="Left"
-                Width="107" 
-                Height="15" 
-                Margin="-535,150,0,0" 
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top" 
-                Text="Специализация" 
-                FontFamily="PT Sans" 
-                FontWeight="Bold"
-                FontSize="12"/>
-            <ComboBox DockPanel.Dock="Left" Width="536" Height="30" Margin="-545,173,0,153"></ComboBox>
-
-
-        </DockPanel>
         <TabControl 
             x:Name="TabContrPort"
             HorizontalAlignment="Center" 
@@ -152,7 +95,8 @@
                 </TabItem.Background>
                 <TabItem.Header>
                     <StackPanel Orientation="Vertical" Height="43">
-                        <Image Source="/Desktop.App;component/Resources/img/icon_enrollment.png" Width="14" Height="15" />
+                        <Image Source="/Desktop.App;component/Resources/img/icon/icon_transfer.png" Width="14" Height="15" >
+                        </Image>
                         <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center"><Run Text="Зачисление"/></TextBlock>
                     </StackPanel>
                 </TabItem.Header>
@@ -162,13 +106,13 @@
                     </StackPanel>
                 </Grid>
             </TabItem>
-            <TabItem Margin="0,0,0,0" Width="103" FontFamily="PT Sans" FontSize="10" BorderBrush="{x:Null}" >
+            <TabItem Margin="0,0,0,0" Width="103" FontFamily="PT Sans" FontSize="10" BorderBrush="{x:Null}" MouseLeftButtonDown="TabItem_MouseLeftButtonDown" >
                 <TabItem.Background>
                     <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_filter.png"/>
                 </TabItem.Background>
                 <TabItem.Header>
                     <StackPanel Orientation="Vertical" Height="43">
-                        <Image Source="/Desktop.App;component/Resources/img/icon_transfer.png" Width="14" Height="15"/>
+                        <Image Source="/Desktop.App;component/Resources/img/icon/icon_transfer.png" Width="14" Height="15" OpacityMask="{x:Null}"/>
                         <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center">Перевод</TextBlock>
                     </StackPanel>
                 </TabItem.Header>
@@ -183,7 +127,7 @@
                 </TabItem.Background>
                 <TabItem.Header>
                     <StackPanel Orientation="Vertical" Height="43">
-                        <Image Source="/Desktop.App;component/Resources/img/icon_recovery.png" Width="14" Height="15"/>
+                        <Image Source="/Desktop.App;component/Resources/img/icon/icon_transfer.png" Width="14" Height="15"/>
                         <TextBlock Margin="3" TextWrapping="Wrap" TextAlignment="Center">Восстановление, отчисление</TextBlock>
                     </StackPanel>
                 </TabItem.Header>
@@ -222,5 +166,129 @@
             FontFamily="PT Sans" 
             FontSize="16" 
             FontWeight="Bold"/>
+        <StackPanel 
+            HorizontalAlignment="Left" 
+            Height="286" 
+            Width="566" 
+            Margin="15,186,0,0" 
+            VerticalAlignment="Top">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Desktop.App;component/Resources/img/fon_filter_student.png"/>
+            </StackPanel.Background>
+            <TextBlock 
+                Width="100" 
+                Height="15" 
+                Margin="15,20,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Форма обучения" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12"/>
+            <TextBlock 
+                Width="107" 
+                Height="15" 
+                Margin="270,-15,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Факультет" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"></TextBlock>
+            <ComboBox Width="240" Height="30" Margin="15,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></ComboBox>
+            <ComboBox Width="281" Height="30" Margin="270,-30,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></ComboBox>
+            <TextBlock 
+                Width="107" 
+                Height="15" 
+                Margin="15,15,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Специальность" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12"/>
+            <ComboBox Width="536" Height="30" Margin="0,0,0,153"></ComboBox>
+            <TextBlock 
+                Width="107" 
+                Height="15" 
+                Margin="15,-141,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Специализация" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12"/>
+            <ComboBox Width="536" Height="30" Margin="0,-206,0,0"></ComboBox>
+            <TextBlock 
+                Width="50" 
+                Height="15" 
+                Margin="15,-55,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Курс" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12"/>
+            <TextBlock 
+                Width="50" 
+                Height="15" 
+                Margin="80,-55,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Группа" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12"/>
+            <TextBlock 
+                Width="120" 
+                Height="15" 
+                Margin="165,-55,0,0" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Text="Начало обучения" 
+                FontFamily="PT Sans" 
+                FontWeight="Bold"
+                FontSize="12"/>
+            <ComboBox Width="50" Height="30" Margin="15,-40,0,0" HorizontalAlignment="Left"></ComboBox>
+            <ComboBox Width="70" Height="30" Margin="80,-40,0,0" HorizontalAlignment="Left"></ComboBox>
+            <TextBox Width="91" Height="30" Margin="165,-40,0,0" HorizontalAlignment="Left" Template="{StaticResource TextBoxTemplate}" FontFamily="PT Sans" FontSize="10" TextAlignment="Center" Background="#EFEFEF"></TextBox>
+
+
+        </StackPanel>
+        <Label 
+            Content="Список студентов" 
+            HorizontalAlignment="Left" 
+            Margin="15,500,0,0" 
+            VerticalAlignment="Top"
+            FontFamily="PT Sans" 
+            FontSize="16" 
+            FontWeight="Bold"/>
+        <StackPanel Orientation="Horizontal" Margin="846,500,146,256" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image Source="/Desktop.App;component/Resources/img/green_ellipse.png" Width="17" Height="17">
+            </Image>
+            <TextBlock Margin="3" VerticalAlignment="Center" FontFamily="PT Sans" TextWrapping="Wrap" TextAlignment="Center" Width="70">Обучается</TextBlock>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="942,500,61,256" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image Source="/Desktop.App;component/Resources/img/red_ellipse_second.png" Width="17" Height="17"/>
+            <TextBlock Margin="3,5" VerticalAlignment="Center" FontFamily="PT Sans" TextWrapping="Wrap" TextAlignment="Center" Width="60">В архивие</TextBlock>
+        </StackPanel>
+
+        <DataGrid x:Name="listStudentGrid" AutoGenerateColumns="True" Margin="15,560,62,0" ColumnHeaderHeight="38" RowHeight="38" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalScrollBarVisibility="Visible">
+            <DataGrid.Resources>
+
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Binding="{Binding Path=Number}" Width="35"/>
+                <DataGridTextColumn Header="Фамилия Имя Отчество" Binding="{Binding Path=FIO}" Width="212" />
+                <DataGridTextColumn Header="Дата рождения" Binding="{Binding Path=Price}" Width="110"/>
+                <DataGridTextColumn Header="Дата поступления" Binding="{Binding Path=Price3}" Width="119"/>
+                <DataGridTextColumn Header="Номер телефона" Binding="{Binding Path=Price3}" Width="134"/>
+                <DataGridTextColumn Header="Задолженность по дисциплинам" Binding="{Binding Path=Price3}" Width="135"/>
+                <DataGridTextColumn Header="Оплата за последний семестр" Binding="{Binding Path=Price3}" Width="133"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Path=Price3}" Width="58"/>
+                <DataGridTextColumn Header="Инф" Binding="{Binding Path=Price3}" Width="40"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
     </Grid>
 </Page>

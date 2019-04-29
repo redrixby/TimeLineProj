@@ -19,6 +19,6 @@
         <Image HorizontalAlignment="Left" Height="40" Margin="15,215,0,0" VerticalAlignment="Top" Width="155" Source="/Desktop.App;component/Resources/img/menu_btn_students_active.png" MouseLeftButtonUp="Image_MouseLeftButtonUp_1"/>
         <Image HorizontalAlignment="Left" Height="40" Margin="15,270,0,0" VerticalAlignment="Top" Width="155" Source="/Desktop.App;component/Resources/img/menu_btn_employee_inactive.png"/>
         <Image HorizontalAlignment="Left" Height="49" Margin="15,325,0,0" VerticalAlignment="Top" Width="185" Source="/Desktop.App;component/Resources/img/menu_btn_administration_inactive.png" MouseLeftButtonUp="Image_MouseLeftButtonUp_2"/>
-
+        
     </Grid>
 </Page>

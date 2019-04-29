@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\REDRIX\RedRixLab.TimeLine last\Desktop.App\obj\Debug\
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\obj\Debug\
 Desktop.App
 none
 false
 DEBUG;TRACE
-C:\REDRIX\RedRixLab.TimeLine last\Desktop.App\App.xaml
-7-1133848170
+f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Desktop.App\App.xaml
+13626173913
 
-20-1294858056
-125591089494
-MainWindow.xaml;Pages\Administration.xaml;Pages\EnrolleePage.xaml;Pages\LoginPage.xaml;Pages\MenuPage.xaml;Pages\StudentListPage.xaml;Pages\WelcomPage.xaml;
+23-1225972944
+15-1206200956
+MainWindow.xaml;Pages\AcademicTranscriptPage.xaml;Pages\Administration.xaml;Pages\DebtorsHonorsPage.xaml;Pages\EnrolleePage.xaml;Pages\ExaminationSheetsPage.xaml;Pages\GroupDistributionPage.xaml;Pages\LoginPage.xaml;Pages\MenuPage.xaml;Pages\StatisticsPerformancePage.xaml;Pages\StudentListPage.xaml;Pages\StudentSearchPage.xaml;Pages\WelcomPage.xaml;
 
-True
+False
 

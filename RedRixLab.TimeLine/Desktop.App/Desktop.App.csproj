@@ -79,11 +79,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Pages\AcademicTranscriptPage.xaml.cs">
+      <DependentUpon>AcademicTranscriptPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Administration.xaml.cs">
       <DependentUpon>Administration.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\DebtorsHonorsPage.xaml.cs">
+      <DependentUpon>DebtorsHonorsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ExaminationSheetsPage.xaml.cs">
+      <DependentUpon>ExaminationSheetsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GroupDistributionPage.xaml.cs">
+      <DependentUpon>GroupDistributionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StatisticsPerformancePage.xaml.cs">
+      <DependentUpon>StatisticsPerformancePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\StudentListPage.xaml.cs">
       <DependentUpon>StudentListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StudentSearchPage.xaml.cs">
+      <DependentUpon>StudentSearchPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\EnrolleVeiwModel.cs" />
     <Compile Include="ViewModel\LoginVeiwModel.cs" />
@@ -101,11 +119,27 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\AcademicTranscriptPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Administration.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\DebtorsHonorsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\EnrolleePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ExaminationSheetsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\GroupDistributionPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -117,7 +151,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\StatisticsPerformancePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\StudentListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\StudentSearchPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -210,6 +252,39 @@
   <ItemGroup>
     <Resource Include="Resources\img\menu_btn_administration_inactive.png" />
     <Resource Include="Resources\img\menu_btn_employee_inactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\green_ellipse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\red_ellipse_second.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\icon\icon_academ_transcr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\icon\icon_subj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\icon\icon_study_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\icon\icon_honors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\icon\icon_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\icon\icon_down_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\purple_ellipse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\back_stat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\img\icon\icon_list_stat.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
