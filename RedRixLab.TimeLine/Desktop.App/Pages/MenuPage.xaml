@@ -5,20 +5,47 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Desktop.App.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="MenuPage" Width="200">
+      d:DesignHeight="800" d:DesignWidth="197"
+      Title="MenuPage" Width="197" Height="800" HorizontalAlignment="Left" VerticalAlignment="Top">
 
-    <Grid Background="White">
-        <Image HorizontalAlignment="Left" Height="18" Margin="10,5,0,0" VerticalAlignment="Top" Width="67" Source="/Desktop.App;component/Resources/img/menu_icon_big.png"/>
-        <Label Content="TimeLine" HorizontalAlignment="Left" Margin="82,0,0,0" VerticalAlignment="Top" Width="115" Height="30" Background="#002F2D2D" FontFamily="Times New Roman" FontSize="20"/>
-        <Image HorizontalAlignment="Left" Height="50" Margin="5,50,0,0" VerticalAlignment="Top" Width="50" Source="/Desktop.App;component/Resources/img/menu_user_avatar_test.png"/>
-        <Label Content="Валентина Юрьевна Григорович" HorizontalAlignment="Left" Margin="59,50,0,0" VerticalAlignment="Top" Background="#002F2D2D" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold" Height="37"/>
-        <Label Content="Администратор" HorizontalAlignment="Left" Margin="59,85,0,0" VerticalAlignment="Top" Width="135" Height="22" FontFamily="Times New Roman"/>
-        <Image HorizontalAlignment="Left" Height="40" Margin="0,110,0,0" VerticalAlignment="Top" Width="197" Source="/Desktop.App;component/Resources/img/menu_search_field.png"/>
-        <Image HorizontalAlignment="Left" Height="40" Margin="15,160,0,0" VerticalAlignment="Top" Width="155" Source="/Desktop.App;component/Resources/img/menu_btn_abiturs_inactive.png" MouseLeftButtonUp="Image_MouseLeftButtonUp"/>
-        <Image HorizontalAlignment="Left" Height="40" Margin="15,215,0,0" VerticalAlignment="Top" Width="155" Source="/Desktop.App;component/Resources/img/menu_btn_students_active.png" MouseLeftButtonUp="Image_MouseLeftButtonUp_1"/>
-        <Image HorizontalAlignment="Left" Height="40" Margin="15,270,0,0" VerticalAlignment="Top" Width="155" Source="/Desktop.App;component/Resources/img/menu_btn_employee_inactive.png"/>
-        <Image HorizontalAlignment="Left" Height="49" Margin="15,325,0,0" VerticalAlignment="Top" Width="185" Source="/Desktop.App;component/Resources/img/menu_btn_administration_inactive.png" MouseLeftButtonUp="Image_MouseLeftButtonUp_2"/>
-        
+    <Grid Background="White" x:Name="GirdMenu">
+        <Border BorderBrush="#FFD6D6D6" BorderThickness="0,0,0,1" HorizontalAlignment="Left" Height="30" Margin="0" VerticalAlignment="Top" Width="197" Padding="0" Background="White"/>
+        <Image x:Name="menu_btn" HorizontalAlignment="Left" Height="20" Margin="10,5,0,0" VerticalAlignment="Top" Width="67" Source="/Desktop.App;component/Resources/img/Menu/menu_btn_open.png" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image HorizontalAlignment="Left" Height="30" Margin="82,0,0,0" VerticalAlignment="Top" Width="115" Source="/Desktop.App;component/Resources/img/Menu/menu_logo.png"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="5,50,0,0" VerticalAlignment="Top" Width="50" Source="/Desktop.App;component/Resources/img/Menu/menu_avatar.png"/>
+        <Label Content="Валентина Юрьевна &#10;Григорович" HorizontalAlignment="Left" Margin="59,50,0,0" VerticalAlignment="Top" FontFamily="PT Sans" FontSize="14" FontWeight="Bold" Foreground="#FF2F2D2D"/>
+        <Label Content="Администратор" HorizontalAlignment="Left" Margin="59,85,0,0" VerticalAlignment="Top" FontFamily="PT Sans" Foreground="#FF2F2D2D"/>
+        <DockPanel x:Name="search_panel" HorizontalAlignment="Left" Height="40" LastChildFill="False" Margin="0,110,0,0" VerticalAlignment="Top" Width="197">
+            <Rectangle Fill="#FFEBEBEB" Stroke="#FFEBEBEB" Width="197"/>
+            <Image Height="30" Width="165" RenderTransformOrigin="0.498,-0.388" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-192,5,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_search_field.png"/>
+            <TextBox x:Name="Search_text" Height="17" TextWrapping="Wrap" Margin="-187,14,0,12" Background="Transparent" BorderBrush="#00ABADB3" Foreground="#FF939393" FontFamily="PT Sans" FontSize="10" HorizontalAlignment="Left" Width="156" BorderThickness="0" AutomationProperties.HelpText="Что вы хотите найти?" ToolTip="Что вы хотите найти?" Text="Что вы хотите найти?"/>
+            <Image Height="24" VerticalAlignment="Top" Width="24" Margin="-25,8,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_search_btn.png" HorizontalAlignment="Left" MouseLeftButtonDown="Image_MouseLeftButtonDown_1"/>
+
+        </DockPanel>
+        <Image x:Name="menu_1" HorizontalAlignment="Left" Height="40" Margin="15,160,0,0" VerticalAlignment="Top" Width="155" Source="/Desktop.App;component/Resources/img/Menu/menu_abitur_inactive_155x40.png" MouseLeftButtonDown="Menu_1_MouseLeftButtonDown"/>
+        <StackPanel x:Name="stud_panel" HorizontalAlignment="Left" Height="40" Margin="0,215,0,0" VerticalAlignment="Top" Width="197">
+            <Image x:Name="menu_stud_btn" Height="40" Width="167" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,0,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_students_inactive_167x40.png" MouseLeftButtonDown="Image_MouseLeftButtonDown_2"/>
+            <Image Height="210" Width="1" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/Desktop.App;component/Resources/img/Menu/menu_students_line.png" Margin="29,0,0,0"/>
+            <Label Content="Список студентов" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="PT Sans" FontSize="10" Foreground="#FF2F2D2D" Margin="0,-210,29,0" Width="120" MouseLeftButtonDown="Label_MouseLeftButtonDown"/>
+            <Label Content="Ведомости по &#10;Экз/зач/Курс. работам" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="PT Sans" FontSize="10" Foreground="#FF2F2D2D" Margin="0,-188,29,0" Width="120" MouseLeftButtonDown="Label_MouseLeftButtonDown_1"/>
+            <Label Content="Академическая справка, &#10;учебная карточка" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="PT Sans" FontSize="10" Foreground="#FF2F2D2D" Margin="0,-148,29,0" Width="120" MouseLeftButtonDown="Label_MouseLeftButtonDown_2"/>
+            <Label Content="Должники, отличники" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="PT Sans" FontSize="10" Foreground="#FF2F2D2D" Margin="0,-108,29,0" Width="120" MouseLeftButtonDown="Label_MouseLeftButtonDown_3"/>
+            <Label Content="Поиск студента" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="PT Sans" FontSize="10" Foreground="#FF2F2D2D" Margin="0,-74,29,0" Width="120" MouseLeftButtonDown="Label_MouseLeftButtonDown_4"/>
+            <Label Content="Распределение групп" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="PT Sans" FontSize="10" Foreground="#FF2F2D2D" Margin="0,-43,29,0" Width="120" MouseLeftButtonDown="Label_MouseLeftButtonDown_5"/>
+            <Label Content="Статистика и успеваемость" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="PT Sans" FontSize="10" Foreground="#FF2F2D2D" Margin="0,-12,19.333,0" Width="130" MouseLeftButtonDown="Label_MouseLeftButtonDown_6"/>
+            <Image Height="8" Width="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,-213,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_stud_ellips.png"/>
+            <Image Height="8" Width="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,-185,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_stud_ellips.png"/>
+            <Image Height="8" Width="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,-145,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_stud_ellips.png"/>
+            <Image Height="8" Width="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,-111,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_stud_ellips.png"/>
+            <Image Height="8" Width="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,-77,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_stud_ellips.png"/>
+            <Image Height="8" Width="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,-46,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_stud_ellips.png"/>
+            <Image Height="8" Width="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,-13,0,0" Source="/Desktop.App;component/Resources/img/Menu/menu_stud_ellips.png"/>
+        </StackPanel>
+        <Image x:Name="menu_3" HorizontalAlignment="Left" Height="40" Margin="15,270,0,0" VerticalAlignment="Top" Width="155" Source="/Desktop.App;component/Resources/img/Menu/menu_employee_inactive_155x40.png"/>
+        <Image x:Name="menu_4" HorizontalAlignment="Left" Height="40" Margin="15,325,0,0" VerticalAlignment="Top" Width="155" Source="/Desktop.App;component/Resources/img/Menu/menu_admin_inactive_164x40.png" MouseLeftButtonDown="Menu_4_MouseLeftButtonDown"/>
+        <Image x:Name="menu_5" HorizontalAlignment="Left" Height="40" Margin="15,325,0,173" VerticalAlignment="Bottom" Width="155" Source="/Desktop.App;component/Resources/img/Menu/menu_settings_inactive_143x40.png"/>
+        <Image x:Name="menu_6" HorizontalAlignment="Left" Height="40" Margin="15,325,0,113" VerticalAlignment="Bottom" Width="155" Source="/Desktop.App;component/Resources/img/Menu/menu_help_inactive_143x40.png"/>
+        <Image x:Name="menu_7" HorizontalAlignment="Left" Height="40" Margin="15,325,0,53" VerticalAlignment="Bottom" Width="155" Source="/Desktop.App;component/Resources/img/Menu/menu_feedback_inactive_143x40.png"/>
+        <Image HorizontalAlignment="Left" Height="12" Margin="62,0,0,5" VerticalAlignment="Bottom" Width="73" Source="/Desktop.App;component/Resources/img/Menu/menu_footer_developedby_73x12.png"/>
     </Grid>
 </Page>

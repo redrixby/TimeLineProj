@@ -8,6 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/img/icon/icon_list_stat.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/img/menu/menu_srud_2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/img/menu/menu_stud_1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/img/menu/menu_stud_3.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/img/menu/menu_stud_4.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/img/menu/menu_stud_5.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/img/menu/menu_stud_6.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/img/menu/menu_stud_7.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/img/menu/menu_stud_ellips.png")]
 
 

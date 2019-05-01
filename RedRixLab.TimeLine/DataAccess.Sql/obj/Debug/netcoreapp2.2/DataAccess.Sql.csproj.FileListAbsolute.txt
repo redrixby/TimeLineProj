@@ -82,8 +82,15 @@ C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\D
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CopyComplete
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.dll
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.pdb
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csprojAssemblyReference.cache
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CoreCompileInputs.cache
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfoInputs.cache
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfo.cs
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Sql.deps.json
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Sql.dll
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Sql.pdb
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Models.dll
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\bin\Debug\netcoreapp2.2\DataAccess.Models.pdb
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csprojAssemblyReference.cache
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CoreCompileInputs.cache
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfoInputs.cache
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.AssemblyInfo.cs
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.csproj.CopyComplete
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.dll
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\DataAccess.Sql\obj\Debug\netcoreapp2.2\DataAccess.Sql.pdb

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj": {}
+    "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj": {}
   },
   "projects": {
-    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
+    "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
         "projectName": "DataAccess.Models",
-        "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Models\\obj\\",
+        "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj",
+        "packagesPath": "C:\\Users\\Karniyuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karniyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -62,21 +62,21 @@
         }
       }
     },
-    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
+    "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
+        "projectUniqueName": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
         "projectName": "DataAccess.Sql",
-        "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Sql\\obj\\",
+        "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj",
+        "packagesPath": "C:\\Users\\Karniyuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karniyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -90,8 +90,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
-                "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj"
+              "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj": {
+                "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Models\\DataAccess.Models.csproj"
               }
             }
           }
@@ -132,21 +132,21 @@
         }
       }
     },
-    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
+    "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
+        "projectUniqueName": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
         "projectName": "Interfaces.Sql",
-        "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\obj\\",
+        "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj",
+        "packagesPath": "C:\\Users\\Karniyuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karniyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -160,8 +160,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
-                "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
+              "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+                "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
               }
             }
           }
@@ -190,21 +190,21 @@
         }
       }
     },
-    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+    "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "projectUniqueName": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
         "projectName": "Models.Sql",
-        "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
+        "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "packagesPath": "C:\\Users\\Karniyuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karniyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -252,21 +252,21 @@
         }
       }
     },
-    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj": {
+    "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj",
+        "projectUniqueName": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj",
         "projectName": "Services.Sql",
-        "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Services.Sql\\obj\\",
+        "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj",
+        "packagesPath": "C:\\Users\\Karniyuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Services.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karniyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -280,14 +280,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
-                "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj"
+              "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
+                "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj"
               },
-              "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
-                "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj"
+              "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
+                "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj"
               },
-              "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
-                "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
+              "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+                "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj"
               }
             }
           }
@@ -336,21 +336,21 @@
         }
       }
     },
-    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj": {
+    "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj",
         "projectName": "Web.Api",
-        "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Web.Api\\obj\\",
+        "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Web.Api\\Web.Api.csproj",
+        "packagesPath": "C:\\Users\\Karniyuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Web.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karniyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -364,14 +364,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
-                "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj"
+              "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj": {
+                "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\DataAccess.Sql\\DataAccess.Sql.csproj"
               },
-              "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
-                "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj"
+              "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj": {
+                "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Interfaces.Sql\\Interfaces.Sql.csproj"
               },
-              "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj": {
-                "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj"
+              "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj": {
+                "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Services.Sql\\Services.Sql.csproj"
               }
             }
           }

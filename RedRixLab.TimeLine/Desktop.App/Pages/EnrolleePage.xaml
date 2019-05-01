@@ -57,6 +57,9 @@
     </Page.Resources>
 
     <Grid Margin="0" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Desktop.App;component/Resources/img/back_main.png" Stretch="UniformToFill"/>
+        </Grid.Background>
 
         <DockPanel 
             HorizontalAlignment="Left" 

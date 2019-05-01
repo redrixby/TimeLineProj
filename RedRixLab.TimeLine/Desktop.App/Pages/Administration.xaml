@@ -5,10 +5,14 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Desktop.App.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="800" d:DesignWidth="1083"
+      MinWidth="1083" MinHeight="800"
       Title="Administration">
 
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Desktop.App;component/Resources/img/back_main.png" Stretch="UniformToFill"/>
+        </Grid.Background>
         <Label Content="This is administration window. Don not touch here enything." HorizontalAlignment="Left" Margin="240,61,0,0" VerticalAlignment="Top"/>
 
     </Grid>

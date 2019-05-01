@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Desktop.App"
         mc:Ignorable="d"
-        Title="TimeLine" Height="900" Width="1280"
+        Title="TimeLine" Height="800" Width="1280"
         Icon="/Desktop.App;component/Resources/img/icon_main.png" MinWidth="1280" MinHeight="800" Background="White" Loaded="Window_Loaded">
 
     <Grid RenderTransformOrigin="0.46,0.534">

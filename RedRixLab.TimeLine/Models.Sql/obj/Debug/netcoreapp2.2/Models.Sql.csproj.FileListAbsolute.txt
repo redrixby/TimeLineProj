@@ -69,12 +69,12 @@ C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\M
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.AssemblyInfo.cs
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.dll
 C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.pdb
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.deps.json
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.csprojAssemblyReference.cache
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.csproj.CoreCompileInputs.cache
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.AssemblyInfoInputs.cache
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.AssemblyInfo.cs
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.dll
-f:\GitHub\TimeLineProj\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.deps.json
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Models.Sql\bin\Debug\netcoreapp2.2\Models.Sql.pdb
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.csprojAssemblyReference.cache
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.csproj.CoreCompileInputs.cache
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.AssemblyInfoInputs.cache
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.AssemblyInfo.cs
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.dll
+C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Models.Sql\obj\Debug\netcoreapp2.2\Models.Sql.pdb

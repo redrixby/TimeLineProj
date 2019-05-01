@@ -7,7 +7,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Optimize>false</Optimize>
-    <DocumentationFile>C:\Users\Моя прелесть\Downloads\Telegram Desktop\RedRixLab.TimeLine\Web.Api\Web.Api.xml</DocumentationFile>
+    <DocumentationFile>C:\Users\Karniyuk\Desktop\RedRixLab.TimeLine\Web.Api\Web.Api.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

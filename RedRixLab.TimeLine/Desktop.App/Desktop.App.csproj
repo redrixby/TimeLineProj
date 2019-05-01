@@ -14,6 +14,8 @@
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,14 +38,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Net" />
-    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Net.Http.2.0.20126.16343\lib\net40\System.Net.Http.dll</HintPath>
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
@@ -56,12 +63,31 @@
     <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
-    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Net.Http.2.0.20126.16343\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.2\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -79,30 +105,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Pages\AcademicTranscriptPage.xaml.cs">
-      <DependentUpon>AcademicTranscriptPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Administration.xaml.cs">
-      <DependentUpon>Administration.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\DebtorsHonorsPage.xaml.cs">
-      <DependentUpon>DebtorsHonorsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\ExaminationSheetsPage.xaml.cs">
-      <DependentUpon>ExaminationSheetsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\GroupDistributionPage.xaml.cs">
-      <DependentUpon>GroupDistributionPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\StatisticsPerformancePage.xaml.cs">
-      <DependentUpon>StatisticsPerformancePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\StudentListPage.xaml.cs">
-      <DependentUpon>StudentListPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\StudentSearchPage.xaml.cs">
-      <DependentUpon>StudentSearchPage.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Pages\AcademicTranscriptPage.xaml.cs" />
+    <Compile Include="Pages\Administration.xaml.cs" />
+    <Compile Include="Pages\DebtorsHonorsPage.xaml.cs" />
+    <Compile Include="Pages\EnrolleePage.xaml.cs" />
+    <Compile Include="Pages\ExaminationSheetsPage.xaml.cs" />
+    <Compile Include="Pages\GroupDistributionPage.xaml.cs" />
+    <Compile Include="Pages\LoginPage.xaml.cs" />
+    <Compile Include="Pages\MenuPage.xaml.cs" />
+    <Compile Include="Pages\StatisticsPerformancePage.xaml.cs" />
+    <Compile Include="Pages\StudentListPage.xaml.cs" />
+    <Compile Include="Pages\StudentSearchPage.xaml.cs" />
+    <Compile Include="Pages\WelcomPage.xaml.cs" />
     <Compile Include="ViewModel\EnrolleVeiwModel.cs" />
     <Compile Include="ViewModel\LoginVeiwModel.cs" />
     <Compile Include="ViewModel\MainWindowModel.cs" />
@@ -120,68 +134,56 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Pages\AcademicTranscriptPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\Administration.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\DebtorsHonorsPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\EnrolleePage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\ExaminationSheetsPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\GroupDistributionPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\LoginPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\MenuPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\StatisticsPerformancePage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\StudentListPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\StudentSearchPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\WelcomPage.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\FormOfEducation.cs" />
-    <Compile Include="Pages\EnrolleePage.xaml.cs">
-      <DependentUpon>EnrolleePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\LoginPage.xaml.cs">
-      <DependentUpon>LoginPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\MenuPage.xaml.cs">
-      <DependentUpon>MenuPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\WelcomPage.xaml.cs">
-      <DependentUpon>WelcomPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -209,87 +211,84 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\img\blue_ellipse.png" />
+    <Resource Include="Resources\img\Menu\Line.png" />
+    <Resource Include="Resources\img\Menu\menu_abitur_inactive_155x40.png" />
+    <Resource Include="Resources\img\Menu\menu_admin_inactive_164x40.png" />
+    <Resource Include="Resources\img\Menu\menu_avatar.png" />
+    <Resource Include="Resources\img\Menu\menu_btn_closed.png" />
+    <Resource Include="Resources\img\Menu\menu_btn_open.png" />
+    <Resource Include="Resources\img\Menu\menu_employee_inactive_155x40.png" />
+    <Resource Include="Resources\img\Menu\menu_feedback_inactive_143x40.png" />
+    <Resource Include="Resources\img\Menu\menu_footer_developedby_73x12.png" />
+    <Resource Include="Resources\img\Menu\menu_help_inactive_143x40.png" />
+    <Resource Include="Resources\img\Menu\menu_logo.png" />
+    <Resource Include="Resources\img\Menu\menu_search_background.png" />
+    <Resource Include="Resources\img\Menu\menu_search_btn.png" />
+    <Resource Include="Resources\img\Menu\menu_search_field.png" />
+    <Resource Include="Resources\img\Menu\menu_settings_inactive_143x40.png" />
+    <Resource Include="Resources\img\Menu\menu_students_active_187x45.png" />
+    <Resource Include="Resources\img\Menu\menu_students_inactive_167x40.png" />
+    <Resource Include="Resources\img\Menu\menu_students_line.png" />
+    <Resource Include="Resources\img\purple_ellipse.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\img\back_main.png" />
+    <Resource Include="Resources\img\back_stat.png" />
+    <Resource Include="Resources\img\blue_ellipse.png" />
     <Resource Include="Resources\img\blue_ellipse_empty.png" />
+    <Resource Include="Resources\img\fon_filter.png" />
+    <Resource Include="Resources\img\fon_filter_student.png" />
     <Resource Include="Resources\img\fon_port.png" />
+    <Resource Include="Resources\img\fon_port_student.png" />
+    <Resource Include="Resources\img\green_ellipse.png" />
     <Resource Include="Resources\img\icon_impexp.png" />
     <Resource Include="Resources\img\icon_list.png" />
     <Resource Include="Resources\img\icon_main.png" />
     <Resource Include="Resources\img\icon_print.png" />
     <Resource Include="Resources\img\icon_sentlist.png" />
     <Resource Include="Resources\img\red_ellipse.png" />
+    <Resource Include="Resources\img\red_ellipse_second.png" />
     <Resource Include="Resources\img\yellow_ellipse.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\img\fon_filter.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\fon_filter_student.png" />
-    <Resource Include="Resources\img\fon_port_student.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Resources\img\icon\icon_academ_transcr.png" />
+    <Resource Include="Resources\img\icon\icon_down_arrow.png" />
     <Resource Include="Resources\img\icon\icon_enrollment.png" />
+    <Resource Include="Resources\img\icon\icon_honors.png" />
     <Resource Include="Resources\img\icon\icon_list.png" />
+    <Resource Include="Resources\img\icon\icon_list_stat.png" />
     <Resource Include="Resources\img\icon\icon_recovery.png" />
+    <Resource Include="Resources\img\icon\icon_search.png" />
+    <Resource Include="Resources\img\icon\icon_study_card.png" />
+    <Resource Include="Resources\img\icon\icon_subj.png" />
     <Resource Include="Resources\img\icon\icon_transfer.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\img\menu_icon_big.png" />
+    <Resource Include="Resources\img\icon\icon_feedback_open.png" />
+    <Resource Include="Resources\img\icon\icon_help_open.png" />
+    <Resource Include="Resources\img\icon\icon_hr_open.png" />
+    <Resource Include="Resources\img\icon\icon_sittings_open.png" />
+    <Resource Include="Resources\img\icon\icon_TimeLine.png" />
+    <Resource Include="Resources\img\icon\icon_work_enrolle_open.png" />
+    <Resource Include="Resources\img\icon\icon_work_student_open.png" />
+    <Resource Include="Resources\img\icon\menu_open.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\img\menu_user_avatar_test.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\menu_search_field.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\menu_btn_abiturs_inactive.png" />
-    <Resource Include="Resources\img\menu_btn_students_active.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\menu_btn_administration_inactive.png" />
-    <Resource Include="Resources\img\menu_btn_employee_inactive.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\green_ellipse.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\red_ellipse_second.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\icon\icon_academ_transcr.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\icon\icon_subj.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\icon\icon_study_card.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\icon\icon_honors.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\icon\icon_search.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\icon\icon_down_arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\purple_ellipse.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\back_stat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\img\icon\icon_list_stat.png" />
+    <Resource Include="Resources\img\Menu\menu_srud_2.png" />
+    <Resource Include="Resources\img\Menu\menu_stud_1.png" />
+    <Resource Include="Resources\img\Menu\menu_stud_3.png" />
+    <Resource Include="Resources\img\Menu\menu_stud_4.png" />
+    <Resource Include="Resources\img\Menu\menu_stud_5.png" />
+    <Resource Include="Resources\img\Menu\menu_stud_6.png" />
+    <Resource Include="Resources\img\Menu\menu_stud_7.png" />
+    <Resource Include="Resources\img\Menu\menu_stud_ellips.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
-  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
-    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
-    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
   </Target>
 </Project>

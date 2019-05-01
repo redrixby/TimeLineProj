@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {}
+    "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {}
   },
   "projects": {
-    "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
+    "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "projectUniqueName": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
         "projectName": "Models.Sql",
-        "projectPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\TimeLineProj\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
+        "projectPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\Models.Sql.csproj",
+        "packagesPath": "C:\\Users\\Karniyuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karniyuk\\Desktop\\RedRixLab.TimeLine\\Models.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karniyuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

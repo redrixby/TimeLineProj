@@ -39,6 +39,8 @@
     <Compile Remove="Migrations\20190426123040_TimeLine.Designer.cs" />
     <Compile Remove="Migrations\20190428171003_TimeLine.cs" />
     <Compile Remove="Migrations\20190428171003_TimeLine.Designer.cs" />
+    <Compile Remove="Migrations\20190428191608_TimeLine.cs" />
+    <Compile Remove="Migrations\20190428191608_TimeLine.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
